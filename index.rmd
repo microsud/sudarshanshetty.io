@@ -1,0 +1,28 @@
+---
+title: "About"
+---
+
+<img src="images/mypic.jpg" height="250px" width="250px" /> 
+
+I am a Post Doctoral researcher (2019-Present) in the Laboratory of Microbiology at the Wageningen University & Research. My research is focused on investigating the ecological and physiological aspects of the human intestinal tract microbiome using synthetic microbiomes. From 2014 until 2019, I did my PhD research with Willem M. De Vos and Hauke Smidt (Laboratory of Microbiology at the Wageningen University & Research) and Leo lahti (Open Research Labs, University of Turku).  
+
+---------  
+
+**Education**  
+
+* August 2014- March 2019	  
+PhD candidate at Laboratory of Microbiology, Wageningen University and Research.  
+*“Ecophysiological insights into the human intestinal microbiota: from single strains to defined consortia”*  
+Supervisors: Prof. dr. Willem M De Vos and Prof. dr. Hauke Smidt    
+Co-Supervisor: Dr. Leo Lahti, University of Turku, Finalnd.  
+
+* June 2009- May 2011	 
+M.Sc. in Microbiology, University of Pune.  
+Dissertation at National Centre for Cell Science, Pune, India.  
+*“Age Related Changes in Human Gut Flora- An Indian Familial Study”*  
+Advisor: Dr. Nachiket P. Marathe and Dr. Yogesh S Shouche  
+
+* June 2007- May 2009  
+B.Sc. in Microbiology, University of Pune.   
+  
+

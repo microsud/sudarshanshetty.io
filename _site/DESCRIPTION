@@ -1,0 +1,26 @@
+Package: Sudarshan A. Shetty
+Type: Website
+Title: OPEN-REPRODUCIBLE-MICROBIOME-DATA-ANALYSIS-2018
+Description: OPEN-REPRODUCIBLE-MICROBIOME-DATA-ANALYSIS-2018.
+Encoding: UTF-8
+Version: 1.00.00
+Date: 2017-07-08
+Authors@R: c(
+    person("Sudarshan", "Shetty", email = "sudarshan.shetty@wur.nl", role = c("aut", "cre")))
+License: BSD_2_clause + file LICENSE
+Depends:
+    R (>= 3.2.2),
+    phyloseq,
+    ggplot2
+Imports:
+    dplyr,
+    reshape2,
+Suggests:
+    BiocGenerics,
+    BiocStyle,
+    Cairo,
+    knitcitations,
+    knitr,
+    rmarkdown
+MailingList: Sudarshan <sudarshanshetty9@gmail.com>
+
