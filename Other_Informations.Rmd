@@ -2,6 +2,8 @@
 title: ""
 ---
   
+
+-------------------
   
 **Organization/Event management experience**  
 
@@ -26,4 +28,10 @@ Note: *The microbiomeutilities-shiny application was used for interactive introd
 **Open data and resources**   
 •	Shetty SA & Lahti L (2018). A list of R environment based tools for 16S rRNA gene data exploration, statistical analysis and visualization (Version v1.0). Zenodo. http://doi.org/10.5281/zenodo.1256879.  
 •	Shetty SA, Lahti L, Hermes Gerben DA, & Smidt H. (2018, September 27). Microbial bioinformatics introductory course material 2018 (Version 0.01). Zenodo. http://doi.org/10.5281/zenodo.1436630.  
-•	GitHub repositories: https://github.com/microsud?tab=repositories.  
+•	GitHub repositories: https://github.com/microsud?tab=repositories.     
+
+
+
+
+<p>Copyright &copy; 2020 Sudarshan A. Shetty. All rights reserved.</p>
+

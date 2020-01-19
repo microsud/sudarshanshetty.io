@@ -2,9 +2,27 @@
 title: "About"
 ---
 
-<img src="images/mypic.jpg" height="250px" width="250px" /> 
+<style>
+.column-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
 
-I am a Post Doctoral researcher (2019-Present) in the Laboratory of Microbiology at the Wageningen University & Research. My research is focused on investigating the ecological and physiological aspects of the human intestinal tract microbiome using synthetic microbiomes. From 2014 until 2019, I did my PhD research with Willem M. De Vos and Hauke Smidt (Laboratory of Microbiology at the Wageningen University & Research) and Leo lahti (Open Research Labs, University of Turku).  
+.column-right{
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+</style>
+<div class="column-left">
+```{r out.width='60%',fig.align='center',echo=FALSE, eval=T}
+knitr::include_graphics("images/mypic.jpg")
+```
+</div> 
+
+I am a Post Doctoral researcher (2020-present) at the University Medical Center, Utrecht and Netherlands National Institute for Public Health and the Environment (Rijksinstituut voor Volksgezondheid en Milieu). I am working on various aspects (immunological, microbiological, etc.) of vaccine response in elderly subjects.  
+Previously, I was a Post Doctoral researcher (2019-2020) in the Laboratory of Microbiology at the Wageningen University & Research (MIB-WUR). At MIB-WUR, my research is focused on investigating the ecological and physiological aspects of the human intestinal tract microbiome using synthetic microbiomes. From 2014 until 2019, I did my PhD research with Willem M. De Vos and Hauke Smidt (Laboratory of Microbiology at the Wageningen University & Research) and Leo lahti (Open Research Labs, University of Turku).   
 
 ---------  
 
@@ -26,3 +44,6 @@ Advisor: Dr. Nachiket P. Marathe and Dr. Yogesh S Shouche
 B.Sc. in Microbiology, University of Pune.   
   
 
+
+
+<p>Copyright &copy; 2020 Sudarshan A. Shetty. All rights reserved.</p>

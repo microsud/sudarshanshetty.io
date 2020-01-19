@@ -14,7 +14,7 @@ navbar:
       href: teaching.html
     - text: "Science communication"
       href: Science_communication.html
-    - text: "Other Informations"
+    - text: "Other Information"
       href: Other_Informations.html
 output:
   html_document:
