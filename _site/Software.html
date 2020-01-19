@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -70,9 +71,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,13 +85,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -108,7 +112,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -128,6 +131,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -149,19 +189,73 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -191,10 +285,13 @@ $(document).ready(function () {
   <a href="Software.html">Software</a>
 </li>
 <li>
-  <a href="teaching.html">Teaching and others</a>
+  <a href="teaching.html">Teaching</a>
 </li>
 <li>
   <a href="Science_communication.html">Science communication</a>
+</li>
+<li>
+  <a href="Other_Informations.html">Other Information</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -213,12 +310,37 @@ $(document).ready(function () {
 </div>
 
 
+<div id="research" class="section level2">
+<h2>Research</h2>
 <p><strong>microbiome R package</strong><br />
 Lahti L, Shetty SA, Blake T and Salojarvi J. (Bioconductor)<br />
-DOI: 10.18129/B9.bioc.microbiome</p>
+DOI: 10.18129/B9.bioc.microbiome<br />
+An R package for microbial community analysis. Tutorials can be found <a href="https://microbiome.github.io/tutorials/">here</a>.</p>
 <p><strong>microbiomeutilities</strong><br />
 Shetty SA, Lahti L. (GitHub)<br />
-<a href="https://github.com/microsud/microbiomeutilities" class="uri">https://github.com/microsud/microbiomeutilities</a></p>
+<a href="https://github.com/microsud/microbiomeutilities">Extending and supporting R package based on microbiome and phyloseq.</a><br />
+A utility package for the parent <em>microbiome</em> R package. Tutorial can be found <a href="https://microsud.github.io/microbiomeutilities/">here</a></p>
+</div>
+<div id="training" class="section level2">
+<h2>Training</h2>
+<p><strong>microbiomeutilities-shiny</strong><br />
+Shetty SA, Lahti L. (GitHub)<br />
+<a href="https://gutmicrobe.shinyapps.io/microbiomeutils-shiny/">A web based shiny dashboard for prelimanry analysis of microbial census data.</a><br />
+This shiny app is used for teaching basic 16S rRNA gene based microbial community analysis.</p>
+<p><strong>TeachingMIB20306</strong><br />
+Shetty SA. (GitHub)<br />
+<a href="https://github.com/microsud/TeachingMIB20306">A web based shiny dashboard for prelimanry analysis of microbial census data.</a><br />
+Teaching MIB20306: This dashboard uses data from Bui, Thi Phuong Nam, Jarmo Ritari, Sjef Boeren, Pieter De Waard, Caroline M. Plugge, and Willem M. De Vos. <a href="https://www.nature.com/articles/ncomms10062">“Production of butyrate from lysine and the Amadori product fructoselysine by a human gut commensal.” Nature Communications 6 (2015): 10062</a>. The data has been modified/subsetted for teaching purpose.</p>
+</div>
+<div id="in-development" class="section level2">
+<h2>In development</h2>
+<p><strong>syncomR</strong><br />
+<a href="https://github.com/microsud/syncomR">Analysis of Synthetic Microbial Communities.</a><br />
+Handling microbial community (MC) data with special emphasis on time series data from synthetic MCs. Bundles R codes openly available in literature into functions for convinient access.</p>
+<p>
+Copyright © 2020 Sudarshan A. Shetty. All rights reserved.
+</p>
+</div>
 
 
 
@@ -237,6 +359,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
