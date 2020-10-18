@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -70,9 +70,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -96,6 +93,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -111,7 +111,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -131,6 +130,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -152,19 +188,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -191,16 +282,37 @@ $(document).ready(function () {
   <a href="Research_Projects.html">Research</a>
 </li>
 <li>
-  <a href="Software.html">Software</a>
-</li>
-<li>
   <a href="teaching.html">Teaching</a>
 </li>
 <li>
   <a href="Science_communication.html">Science communication</a>
 </li>
 <li>
-  <a href="Other_Informations.html">Other Informations</a>
+  <a href="Other_Informations.html">Other Information</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Software and codes
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Software.html">Software</a>
+    </li>
+    <li>
+      <a href="coding_main.html">Coding in R for Microbiome</a>
+    </li>
+    <li>
+      <a href="code_basics.html">Basic tasks in R</a>
+    </li>
+    <li>
+      <a href="code_loops.html">For loops in R</a>
+    </li>
+    <li>
+      <a href="code_customize_ordination.html">Customize ordination plots</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -220,18 +332,18 @@ $(document).ready(function () {
 
 
 <p><strong>Scientific Conferences</strong></p>
-<p><em>Conference Presentations (Oral)</em></p>
-<p>• Shetty SA, Lahti L, Smidt H, de Vos WM. Unravelling the ecophysiological dynamics of core human intestinal bacteria in a defined consortium. KNVM 2019, Netherlands. (Invited oral presentation)<br />
+<p><em>Conference Presentations (Oral)</em><br />
+• Shetty SA, Kuipers B, Atashgahi S, Smidt H, de Vos WM. Unravelling the ecophysiological dynamics of core human intestinal bacteria in a defined consortium. KNVM 2019.(Invited talk)<br />
 • Shetty SA, Lahti L, Smidt H, de Vos WM. Unravelling the ecophysiological dynamics of core human intestinal bacteria in a defined consortium. International Conference on Microbiome Research (ICMR) 2018, India.(Best oral presentation award)<br />
 • Shetty SA, Hugenholtz F, Lahti L, Smidt H, de Vos WM. Intestinal microbiome landscape of Western adults - Phylogenetic core and its functionality. INRA-Rowett 2016, Clermont-Ferrand, France.<br />
-• Shetty SA, Bui TP, Lagkouvardos I, Ritari J, Chamlagain B, Douillard FP, Paulin L, Piironen V, Clavel T, Plugge CM, de Vos WM. Comparative genomics of <em>Intestinimonas butyriciproducens</em>, a lysine utilizing and butyrate producing bacteria in the human gut. The Netherlands Microbiology society (KNVM &amp; NVMM) 2016.<br />
+• Shetty SA, Bui TP, Lagkouvardos I, Ritari J, Chamlagain B, Douillard FP, Paulin L, Piironen V, Clavel T, Plugge CM, de Vos WM. Comparative genomics of Intestinimonas butyriciproducens, a lysine utilizing and butyrate producing bacteria in the human gut. The Netherlands Microbiology society (KNVM &amp; NVMM) 2016.<br />
 • Shetty SA, Dhotre DP, Bhatia K, Verma AK, Mishra A, Ahuja V, Makharia GK, Shouche YS. Ultra-deep high-throughput sequencing of intestinal microbiota in celiac disease and first-degree relatives and effect of gluten free diet on them. The 54th Annual conference of Indian Society of Gastroenterology conference 2013.</p>
 <p><strong>General</strong><br />
 Blog Author at Gut Microbiota for Health, created by the Gut Microbiota and Health Section of the European Society for Neurogastroenterology &amp; Motility (ESNM), member of United European Gastroenterology (UEG).<br />
-* Is <em>Blastocystis</em> a pathobiont? Prevalence data and beyond.<br />
+* Is Blastocystis a pathobiont? Prevalence data and beyond.<br />
 * The Indian tribal gut microbiota unraveled.<br />
 * Blastocystis —a possible pathobiont— linked with greater bacterial diversity.</p>
-<p>Twitter: <a href="https://twitter.com/?lang=en">gutmicrobe</a></p>
+<p><strong>Twitter:</strong> <a href="https://twitter.com/?lang=en">gutmicrobe</a></p>
 </div>
 <center>
 <a 
@@ -259,6 +371,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

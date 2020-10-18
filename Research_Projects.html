@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -70,9 +70,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -96,6 +93,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -111,7 +111,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -131,6 +130,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -152,19 +188,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -191,16 +282,37 @@ $(document).ready(function () {
   <a href="Research_Projects.html">Research</a>
 </li>
 <li>
-  <a href="Software.html">Software</a>
-</li>
-<li>
   <a href="teaching.html">Teaching</a>
 </li>
 <li>
   <a href="Science_communication.html">Science communication</a>
 </li>
 <li>
-  <a href="Other_Informations.html">Other Informations</a>
+  <a href="Other_Informations.html">Other Information</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Software and codes
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Software.html">Software</a>
+    </li>
+    <li>
+      <a href="coding_main.html">Coding in R for Microbiome</a>
+    </li>
+    <li>
+      <a href="code_basics.html">Basic tasks in R</a>
+    </li>
+    <li>
+      <a href="code_loops.html">For loops in R</a>
+    </li>
+    <li>
+      <a href="code_customize_ordination.html">Customize ordination plots</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -219,15 +331,78 @@ $(document).ready(function () {
 </div>
 
 
+<style>
+.column-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.column-right{
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+</style>
+<div class="column-center">
+<p><img src="images/Ecological.png" width="50%" style="display: block; margin: auto;" /></p>
+</div>
+<p><strong>Research interests</strong><br />
+Microbial ecology and physiology, Host-microbe interactions, Microbe-microbe interactions, Integrated multi-omics data analysis, Synthetic microbial communities, Reproducible and open research data and tools.</p>
+<hr />
+<blockquote>
+<p>Current research</p>
+</blockquote>
+<div class="column-left">
+
+</div>
+<p><strong>Elderly microbiota and respiratory diseases</strong><br />
+Investigation of elderly microbiota presents unique challenges with respect to identifying biomarkers of health and disease. The stability of microbiota may decrease with increasing age. One key question is to understanding ‘normal’ microbiota of elderly compared to those with respiratory infections. In the project, we will investigate the microbiota of elderly subjects from the Netherlands part of the Ili Cohort. For details of the cohort check this article by <a href="https://academic.oup.com/jid/article/216/4/415/3958807">Van Beek J, Veenhoven RH, Bruin JP, Van Boxtel RA, De Lange MM, Meijer A, Sanders EA, Rots NY, Luytjes W. Influenza-like illness incidence is not reduced by influenza vaccination in a cohort of older adults, despite effectively reducing laboratory-confirmed influenza virus infections. The Journal of infectious diseases. 2017 Aug 15;216(4):415-24.</a>.</p>
+<div class="column-left">
+
+</div>
+<p><strong>Vaccines and InfecTious diseases in the Ageing popuLation (VITAL)</strong><br />
+This is a multidisciplinary research with numerous academic and industrial partners. The consortium academic leader is Dr. Debbie van Baarle, professor of Immunology of Vaccinations at UMC Utrecht and Head of the Department of Immune Mechanisms at the Centre for Immunology of Infectious Diseases and Vaccines at RIVM National Institute for Public Health and the Environment. For more information on the project <a href="https://www.rivm.nl/node/138561">click here</a>.</p>
+<hr />
+<blockquote>
+<p>On-going Collaborations</p>
+</blockquote>
+<div class="column-left">
+<p><img src="images/hmp_core.png" width="50%" style="display: block; margin: auto;" /></p>
+</div>
 <p><strong>Ecophysiology of Core Human Intestinal Bacteria</strong><br />
-In this project, we aim to understand the physiology and role of the core bacteria that have been identified by us. We use basic anaerobic microbiology techniques supported by genomics, proteomics and may be also transcriptomics. The goal here is to better understand these microbes before they can be used to next generation of therapeutic. For more details please click on the <a href="https://academic.oup.com/femsre/article-lookup/doi/10.1093/femsre/fuw045">link</a> to check the publication for a list of interesting core bacteria in human gut.</p>
+In this project, we aim to understand the physiology and role of the core bacteria that have been identified by us. We use basic anaerobic microbiology techniques supported by genomics, proteomics and may be also transcriptomics. The goal here is to better understand these microbes before they can be used to next generation of therapeutic. For more details please click on the <a href="https://academic.oup.com/femsre/article-lookup/doi/10.1093/femsre/fuw045">link</a> to check the publication for a list of interesting core bacteria in human gut.<br />
+<strong>Laboratory of Microbiology, Wageningen University and Research</strong></p>
+<div class="column-left">
+<p><img src="images/syncom.png" width="40%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="column-left">
 <p><strong>Towards minimal microbiome</strong><br />
 In this study, we aim to study ecological and physiological dynamics of key bacterial strains in defined microbial communities. We also aim to address challenges in data acquisition, integration and visualization in such studies. The combination of multi-omics and basic anaerobic physiology is expected to give crucial insights into the resilience, stability and functional networks under well defined growth condtions.<br />
 For more details please check our review <a href="https://www.sciencedirect.com/science/article/pii/S0958166918302301">Reconstructing functional networks in the human intestinal tract using synthetic microbiomes</a>.</p>
+<p><strong>Laboratory of Microbiology, Wageningen University and Research</strong></p>
 <hr />
-<p><strong>Research Experience</strong></p>
+<blockquote>
+<p>Other projects</p>
+</blockquote>
+<div class="column-left">
+
+</div>
+<p><strong>Metagenomics study investigating links between dietary habits-gut microbiota-resistome.</strong><br />
+<strong>Metagenomics guided investigation of the impact of bacteroiphage on faecal microbiota <em>in-vitro</em> </strong><br />
+<strong>Development of tools for microbiota analysis.</strong></p>
+<hr />
+<div class="column-left">
+
+</div>
+<blockquote>
+<p>Research Experience</p>
+</blockquote>
 <ul>
-<li><p>March 2019 - Present<br />
+<li><p>February 2020 - Present<br />
+Post Doctoral Researcher at University Medical Center, Utrecht and Netherlands National Institute for Public Health and the Environment (Rijksinstituut voor Volksgezondheid en Milieu).<br />
+• Immune response in elderly subjects receiving vaccine(s). Investigation of various immune parameters and microbiota.</p></li>
+<li><p>March 2019 - Jan 2020<br />
 Post Doctoral Researcher at Laboratory of Microbiology, Wageningen University and Research.<br />
 • Design and development of synthetic human gut microbiomes.<br />
 • Developing multi-omics integrative biodiscovery pipelines for efficient utilization of synthetic microbiomes in a variety of biotech applications.</p></li>
@@ -242,6 +417,9 @@ Junior Research Fellow, National Centre for Cell Science.<br />
 • Genome sequencing and analysis of potential novel anaerobic bacteria isolated from feces of healthy human subjects.<br />
 • High-throughput sequencing and data analysis of microbial community in human subjects with different dietary habits (The Pune Microbiome Study).</p></li>
 </ul>
+<p>
+Copyright © 2020 Sudarshan A. Shetty. All rights reserved.
+</p>
 
 
 
@@ -260,6 +438,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
