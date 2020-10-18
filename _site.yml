@@ -1,0 +1,34 @@
+name: "Sudarshan Shetty"
+navbar:
+  title: "Sudarshan A. Shetty"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: Publications.html
+    - text: "Research"
+      href: Research_Projects.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Science communication"
+      href: Science_communication.html
+    - text: "Other Information"
+      href: Other_Informations.html
+    - text: "Software and codes"
+      menu:
+      - text: "Software"
+        href: Software.html
+      - text: "Coding in R for Microbiome"  
+        href: coding_main.html
+      - text: "Basic tasks in R"   
+        href: code_basics.html
+      - text: "For loops in R"
+        href: code_loops.html
+      - text: "Customize ordination plots"
+        href: code_customize_ordination.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    css: styles.css
+      
