@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -70,9 +71,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -96,6 +94,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -111,7 +112,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -131,6 +131,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -152,19 +189,73 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -200,7 +291,7 @@ $(document).ready(function () {
   <a href="Science_communication.html">Science communication</a>
 </li>
 <li>
-  <a href="Other_Informations.html">Other Informations</a>
+  <a href="Other_Informations.html">Other Information</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -219,39 +310,47 @@ $(document).ready(function () {
 </div>
 
 
-<p><strong>2019</strong><br />
-<strong>Shetty SA</strong>, Smidt H, de Vos WM. Reconstructing functional networks in the human intestinal tract using synthetic microbiomes. Current Opinion in Biotechnology. 2019 Aug 1;58:146-54.<br />
-Bodkhe R, <strong>Shetty SA</strong>, Dhotre DP, Verma AK, Bhatia K, Mishra A, Kaur G, Pande P, Bangarusamy DK, Santosh BP, Perumal RC, Ahuja V, Makharia GK, Shouche YS. Comparison of Small Gut and Whole Gut Microbiota of First-Degree Relatives with Adult Patients with Celiac Disease and Controls. Front Microbiol. 2019. doi: 10.3389/fmicb.2019.00164.</p>
-<p><strong>2018</strong><br />
-<strong>Shetty SA</strong>, Zuffa S, Bui TP, Aalvink S, Smidt H, De Vos WM. Reclassification of Eubacterium hallii as Anaerobutyricum hallii gen. nov., comb. nov., and description of Anaerobutyricum soehngenii sp. nov., a butyrate and propionate-producing bacterium from infant faeces. International Journal of Systematic and Evolutionary Microbiology. 2018 Oct 23.</p>
+<p><strong>2020</strong></p>
+<p>Edwards JE, <strong>Shetty SA</strong>, van den Berg P, Burden F, van Doorn DA, Pellikaan WF, Dijkstra J, Smidt H. The Equine Hindgut Microbiome: A Broader Perspective. (under review).</p>
+<p><strong>2019</strong></p>
+<p><strong>Shetty SA</strong>, Lahti L. Microbiome data science. Journal of biosciences. 2019 Dec 1;44(5):115.</p>
+<p>Hynönen U, Zoetendal EG, Virtala AM, <strong>Shetty S</strong>, Hasan S, Jakava-Viljanen M, de Vos WM, Palva A. Molecular ecology of the yet uncultured bacterial Ct85-cluster in the mammalian gut. Anaerobe. 2019 Sep 25:102104.</p>
+<p><strong>Shetty SA</strong>, Smidt H, de Vos WM. Reconstructing functional networks in the human intestinal tract using synthetic microbiomes. Current Opinion in Biotechnology. 2019 Aug 1;58:146-54.</p>
+<p>Bodkhe R, <strong>Shetty SA</strong>, Dhotre DP, Verma AK, Bhatia K, Mishra A, Kaur G, Pande P, Bangarusamy DK, Santosh BP, Perumal RC, Ahuja V, Makharia GK, Shouche YS. Comparison of Small Gut and Whole Gut Microbiota of First-Degree Relatives with Adult Patients with Celiac Disease and Controls. Front Microbiol. 2019. doi: 10.3389/fmicb.2019.00164.</p>
+<p><strong>2018</strong></p>
+<p><strong>Shetty SA</strong>, Zuffa S, Bui TP, Aalvink S, Smidt H, De Vos WM. Reclassification of Eubacterium hallii as Anaerobutyricum hallii gen. nov., comb. nov., and description of Anaerobutyricum soehngenii sp. nov., a butyrate and propionate-producing bacterium from infant faeces. International Journal of Systematic and Evolutionary Microbiology. 2018 Oct 23.</p>
 <p>Atashgahi S, <strong>Shetty SA</strong>, Smidt H, De Vos WM. Flux, impact and fate of halogenated xenobiotic compounds in the gut. Frontiers in physiology. 2018; 9:888.</p>
 <p>Ghattargi VC, Nimonkar YS, Burse SA, Davray D, Kumbhare SV, <strong>Shetty SA</strong>, Gaikwad MA, Suryavanshi MV, Doijad SP, Utage B, Sharma OP. Genomic and physiological analyses of an indigenous strain, <em>Enterococcus faecium</em> 17OM39. Functional &amp; integrative genomics. 2018 Jul 1;18(4):385-99.</p>
-<p><strong>2017</strong><br />
-<strong>Shetty SA</strong>, Ritari J, Paulin L, Smidt H, De Vos WM. Complete Genome Sequence of <em>Eubacterium hallii</em> Strain L2-7. Genome Announc. 2017 Oct 26;5(43). pii: e01167-17.</p>
+<p><strong>2017</strong></p>
+<p><strong>Shetty SA</strong>, Ritari J, Paulin L, Smidt H, De Vos WM. Complete Genome Sequence of <em>Eubacterium hallii</em> Strain L2-7. Genome Announc. 2017 Oct 26;5(43). pii: e01167-17.</p>
 <p><strong>Shetty SA</strong>#, Hugenholtz F, Lahti L, Smidt H, de Vos WM. Intestinal microbiome landscaping: insight in community assemblage and implications for microbial modulation strategies. FEMS Microbiol Rev. 2017 Mar 1;41(2):182-199.</p>
 <p>Buntin N, Hongpattarakere T, Ritari J, Douillard FP, Paulin L, Boeren S, <strong>Shetty SA</strong>, de Vos WM. An inducible operon is involved in inulin utilization in <em>Lactobacillus plantarum</em> strains, as revealed by comparative proteogenomics and metabolic profiling. Applied and Environmental Microbiology. 2017 Jan 15;83(2):e02402-16.</p>
-<p><strong>2016</strong><br />
-Marathe NP, <strong>Shetty SA</strong>, Shouche YS, Larsson DG. Limited Bacterial Diversity within a Treatment Plant Receiving Antibiotic-Containing Waste from Bulk Drug Production. PLoS One. 2016 Nov 3;11(11):e0165914.</p>
+<p><strong>2016</strong></p>
+<p>Marathe NP, <strong>Shetty SA</strong>, Shouche YS, Larsson DG. Limited Bacterial Diversity within a Treatment Plant Receiving Antibiotic-Containing Waste from Bulk Drug Production. PLoS One. 2016 Nov 3;11(11):e0165914.</p>
 <p>Bui TP, <strong>Shetty SA</strong>, Lagkouvardos I, Ritari J, Chamlagain B, Douillard FP, Paulin L, Piironen V, Clavel T, Plugge CM, de Vos WM. Comparative genomics and physiology of the butyrate-producing bacterium <em>Intestinimonas butyriciproducens</em>. Environ Microbiol Rep. 2016 Dec;8(6):1024-1037.</p>
 <p>Paul D, Kumbhare SV, Mhatre SS, Chowdhury SP, <strong>Shetty SA</strong>, Marathe NP, Bhute S, Shouche YS. Exploration of Microbial Diversity and Community Structure of Lonar Lake: The Only Hypersaline Meteorite Crater Lake within Basalt Rock. Front Microbiol. 2016 Jan 22; 6:1553.</p>
 <p>Bhute S, Pande P, <strong>Shetty SA</strong>, Shelar R, Mane S, Kumbhare SV, Gawali A, Makhani H, Navandar M, Dhotre D, Lubree H, Agarwal D, Patil R, Ozarkar S, Ghaskadbi S, Yajnik C, Juvekar S, Makharia GK, Shouche YS. Molecular Characterization and Meta-Analysis of Gut Microbial Communities Illustrate Enrichment of <em>Prevotella</em> and <em>Megasphaera</em> in Indian Subjects. Front Microbiol. 2016 May 9; 7:660.</p>
-<p><strong>2015</strong><br />
-Pandey PK, Verma P, Marathe N, <strong>Shetty SA</strong>, Bavdekar A, Patole MS, Stensvold CR, Shouche YS. Prevalence and subtype analysis of <em>Blastocystis</em> in healthy Indian individuals. Infect Genet Evol. 2015 Apr; 31:296-9.</p>
-<p><strong>2014</strong><br />
-Marathe NP, <strong>Shetty SA</strong>, Lanjekar VB, Rasane MH, Ranade DR, Shouche YS. Genome sequencing of multidrug resistant novel <em>Clostridium</em> sp. BL8 reveals its potential for pathogenicity. Gut Pathog. 2014 Jul 18; 6:30.</p>
+<p><strong>2015</strong></p>
+<p>Pandey PK, Verma P, Marathe N, <strong>Shetty SA</strong>, Bavdekar A, Patole MS, Stensvold CR, Shouche YS. Prevalence and subtype analysis of <em>Blastocystis</em> in healthy Indian individuals. Infect Genet Evol. 2015 Apr; 31:296-9.</p>
+<p><strong>2014</strong></p>
+<p>Marathe NP, <strong>Shetty SA</strong>, Lanjekar VB, Rasane MH, Ranade DR, Shouche YS. Genome sequencing of multidrug resistant novel <em>Clostridium</em> sp. BL8 reveals its potential for pathogenicity. Gut Pathog. 2014 Jul 18; 6:30.</p>
 <p>Mahale KN, Paranjape PS, Marathe NP, Dhotre DP, Chowdhury S, <strong>Shetty SA</strong>, Sharma A, Sharma K, Tuteja U, Batra HV, Shouche YS. Draft Genome Sequences of <em>Yersinia pestis</em> Strains from the 1994 Plague Epidemic of Surat and 2002 Shimla Outbreak in India. Indian J Microbiol. 2014 Dec;54(4):480-2.</p>
 <p>Kulkarni GJ, <strong>Shetty SA</strong>, Dharne MS, Shouche YS. Genome sequencing analysis reveals virulence-related gene content of <em>Ochrobactrum intermedium</em> strain 229E, a urease-positive strain isolated from the human gastric niche. FEMS Microbiol Lett. 2014 Oct;359(1):12-5.</p>
-<p><strong>2013</strong><br />
-<strong>Shetty SA</strong>, Marathe NP, Shouche YS. Opportunities and challenges for gut microbiome studies in the Indian population. Microbiome. 2013 Sep 17;1(1):24.</p>
+<p><strong>2013</strong></p>
+<p><strong>Shetty SA</strong>, Marathe NP, Shouche YS. Opportunities and challenges for gut microbiome studies in the Indian population. Microbiome. 2013 Sep 17;1(1):24.</p>
 <p><strong>Shetty SA</strong>, Marathe NP, Lanjekar V, Ranade D, Shouche YS. Comparative genome analysis of <em>Megasphaera</em> sp. reveals niche specialization and its potential role in the human gut. PLoS One. 2013 Nov 18; 8(11):e79353.</p>
 <p>Kulkarni G, Dhotre D, Dharne M, <strong>Shetty SA</strong>, Chowdhury S, Misra V, Misra S, Patole M, Shouche Y. Draft genome of <em>Ochrobactrum intermedium</em> strain M86 isolated from non-ulcer dyspeptic individual from India. Gut Pathog. 2013 Apr 4; 5(1):7.</p>
-<p><strong>2012</strong><br />
-Marathe N, <strong>Shetty SA</strong>, Lanjekar V, Ranade D, Shouche Y. Changes in human gut flora with age: an Indian familial study. BMC Microbiol. 2012 Sep 26; 12:222.</p>
+<p><strong>2012</strong></p>
+<p>Marathe N, <strong>Shetty SA</strong>, Lanjekar V, Ranade D, Shouche Y. Changes in human gut flora with age: an Indian familial study. BMC Microbiol. 2012 Sep 26; 12:222.</p>
 <p><strong>Shetty SA</strong>, Dhotre DP, Shetty SA, Chowdhury SP, Chaudhari BL, Shouche YS. Genome sequence of <em>Janibacter hoylei</em> MTCC8307, isolated from the stratospheric air. J Bacteriol. 2012 Dec;194(23):6629-30.</p>
 <p><strong>Manuscripts in pre-print review:</strong></p>
+<p>Peng P, Lu Y, Bosma TN, Nijenhuis I, Nijsse B, <strong>Shetty SA</strong>, Ruecker A, Umanetc A, Ramiro-Garcia J, Kappler A, Sipkema D. Metagenomic-and cultivation-based exploration of anaerobic chloroform biotransformation in hypersaline sediments as natural source of chloromethanes. <a href="https://www.biorxiv.org/content/10.1101/858480v1.full">bioRxiv.</a> (2019).</p>
 <p><strong>Shetty SA</strong>#. Gut microbiota features of the geographically diverse Indian population. <a href="https://www.biorxiv.org/content/10.1101/478586v1.full">bioRxiv</a> (2018).</p>
 <p>Complete list of publications at <a href="https://goo.gl/Wt1Kj9">google scholar</a><br />
 <a href="https://publons.com/researcher/1690018/sudarshan-shetty/">Publons profile</a></p>
+<p>
+Copyright © 2020 Sudarshan A. Shetty. All rights reserved.
+</p>
 
 
 
@@ -270,6 +369,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
