@@ -3,12 +3,21 @@ title: "Select Peer-Reviewed Publications"
 ---
 
 
-**2020**  
+> **2020**   
 
-Edwards JE, **Shetty SA**, van den Berg P, Burden F, van Doorn DA, Pellikaan WF, Dijkstra J, Smidt H. The Equine Hindgut Microbiome: A Broader Perspective. (under review).  
+**Shetty, SA.**, Boeren S, Bui TPN, Smidt H, and De Vos WM, 2020. Unravelling lactate‐acetate and sugar conversion into butyrate by intestinal _Anaerobutyricum_ and _Anaerostipes_ species by comparative proteogenomics. 2020 October; [Environmental Microbiology](https://sfamjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1462-2920.15269)  
 
+Van der Graaf CM, Sánchez-España J, Yusta I, Ilin A, **Shetty SA**, Bale NJ, Villanueva L, Stams AJ, Sánchez-Andrea I. Biosulfidogenesis mediates natural attenuation in acidic mine pit lakes. Microorganisms. 2020 Sep;8(9):1275.  
 
-**2019**   
+Jacksch S, Thota J, **Shetty S**, Smidt H, Schnell S, Egert M. Metagenomic Analysis of Regularly Microwave-Treated and Untreated Domestic Kitchen Sponges. Microorganisms. 2020 May;8(5):736.   
+
+Peng P, Lu Y, Bosma TN, Nijenhuis I, Nijsse B, **Shetty SA**, Ruecker A, Umanets A, Ramiro-Garcia J, Kappler A, Sipkema D. Metagenomic-and cultivation-based exploration of anaerobic chloroform biotransformation in hypersaline sediments as natural source of chloromethanes. Microorganisms. 2020 May;8(5):665.    
+
+Edwards JE, **Shetty SA**, van den Berg P, Burden F, van Doorn DA, Pellikaan WF, Dijkstra J, Smidt H. The Equine Hindgut Microbiome: A Broader Perspective. (under review).    
+
+Gutleben J, Loureiro C, Ramírez Romero LA, **Shetty S**, Wijffels RH, Smidt H, Sipkema D. Cultivation of Bacteria From Aplysina aerophoba: Effects of Oxygen and Nutrient Gradients. Frontiers in Microbiology. 2020 Feb 19;11:175.   
+
+> **2019**   
 
 **Shetty SA**, Lahti L. Microbiome data science. Journal of biosciences. 2019 Dec 1;44(5):115.  
 
@@ -18,7 +27,7 @@ Hynönen U, Zoetendal EG, Virtala AM, **Shetty S**, Hasan S, Jakava-Viljanen M, 
 
 Bodkhe R, **Shetty SA**, Dhotre DP, Verma AK, Bhatia K, Mishra A, Kaur G, Pande P, Bangarusamy DK, Santosh BP, Perumal RC, Ahuja V, Makharia GK, Shouche YS. Comparison of Small Gut and Whole Gut Microbiota of First-Degree Relatives with Adult Patients with Celiac Disease and Controls. Front Microbiol. 2019. doi: 10.3389/fmicb.2019.00164.  
 
-**2018**  
+> **2018**  
 
 **Shetty SA**, Zuffa S, Bui TP, Aalvink S, Smidt H, De Vos WM. Reclassification of Eubacterium hallii as Anaerobutyricum hallii gen. nov., comb. nov., and description of Anaerobutyricum soehngenii sp. nov., a butyrate and propionate-producing bacterium from infant faeces. International Journal of Systematic and Evolutionary Microbiology. 2018 Oct 23.  
 
@@ -26,7 +35,7 @@ Atashgahi S, **Shetty SA**, Smidt H, De Vos WM. Flux, impact and fate of halogen
 
 Ghattargi VC, Nimonkar YS, Burse SA, Davray D, Kumbhare SV, **Shetty SA**, Gaikwad MA, Suryavanshi MV, Doijad SP, Utage B, Sharma OP. Genomic and physiological analyses of an indigenous strain, _Enterococcus faecium_ 17OM39. Functional & integrative genomics. 2018 Jul 1;18(4):385-99.  
 
-**2017**  
+> **2017**  
 
 **Shetty SA**, Ritari J, Paulin L, Smidt H, De Vos WM. Complete Genome Sequence of _Eubacterium hallii_ Strain L2-7. Genome Announc. 2017 Oct 26;5(43). pii: e01167-17.   
 
@@ -34,7 +43,7 @@ Ghattargi VC, Nimonkar YS, Burse SA, Davray D, Kumbhare SV, **Shetty SA**, Gaikw
 
 Buntin N, Hongpattarakere T, Ritari J, Douillard FP, Paulin L, Boeren S, **Shetty SA**, de Vos WM. An inducible operon is involved in inulin utilization in _Lactobacillus plantarum_ strains, as revealed by comparative proteogenomics and metabolic profiling. Applied and Environmental Microbiology. 2017 Jan 15;83(2):e02402-16.  
 
-**2016**  
+> **2016**  
 
 Marathe NP, **Shetty SA**, Shouche YS, Larsson DG. Limited Bacterial Diversity within a Treatment Plant Receiving Antibiotic-Containing Waste from Bulk Drug Production. PLoS One. 2016 Nov 3;11(11):e0165914.   
 
@@ -44,11 +53,11 @@ Paul D, Kumbhare SV, Mhatre SS, Chowdhury SP, **Shetty SA**, Marathe NP, Bhute S
 
 Bhute S, Pande P, **Shetty SA**, Shelar R, Mane S, Kumbhare SV, Gawali A, Makhani H, Navandar M, Dhotre D, Lubree H, Agarwal D, Patil R, Ozarkar S, Ghaskadbi S, Yajnik C, Juvekar S, Makharia GK, Shouche YS. Molecular Characterization and Meta-Analysis of Gut Microbial Communities Illustrate Enrichment of _Prevotella_ and _Megasphaera_ in Indian Subjects. Front Microbiol. 2016 May 9; 7:660.  
 
-**2015**  
+> **2015**  
 
 Pandey PK, Verma P, Marathe N, **Shetty SA**, Bavdekar A, Patole MS, Stensvold CR, Shouche YS. Prevalence and subtype analysis of _Blastocystis_ in healthy Indian individuals. Infect Genet Evol. 2015 Apr; 31:296-9.  
 
-**2014**  
+> **2014**  
 
 Marathe NP, **Shetty SA**, Lanjekar VB, Rasane MH, Ranade DR, Shouche YS. Genome sequencing of multidrug resistant novel _Clostridium_ sp. BL8 reveals its potential for pathogenicity. Gut Pathog. 2014 Jul 18; 6:30.  
 
@@ -56,7 +65,7 @@ Mahale KN, Paranjape PS, Marathe NP, Dhotre DP, Chowdhury S, **Shetty SA**, Shar
 
 Kulkarni GJ, **Shetty SA**, Dharne MS, Shouche YS. Genome sequencing analysis reveals virulence-related gene content of _Ochrobactrum intermedium_ strain 229E, a urease-positive strain isolated from the human gastric niche. FEMS Microbiol Lett. 2014 Oct;359(1):12-5.  
 
-**2013**  
+> **2013**  
 
 **Shetty SA**, Marathe NP, Shouche YS. Opportunities and challenges for gut microbiome studies in the Indian population. Microbiome. 2013 Sep 17;1(1):24.  
 
@@ -64,16 +73,16 @@ Kulkarni GJ, **Shetty SA**, Dharne MS, Shouche YS. Genome sequencing analysis re
 
 Kulkarni G, Dhotre D, Dharne M, **Shetty SA**, Chowdhury S, Misra V, Misra S, Patole M, Shouche Y. Draft genome of _Ochrobactrum intermedium_ strain M86 isolated from non-ulcer dyspeptic individual from India. Gut Pathog. 2013 Apr 4; 5(1):7.  
 
-**2012**  
+> **2012**  
 
 Marathe N, **Shetty SA**, Lanjekar V, Ranade D, Shouche Y. Changes in human gut flora with age: an Indian familial study. BMC Microbiol. 2012 Sep 26; 12:222.   
 
 **Shetty SA**, Dhotre DP, Shetty SA, Chowdhury SP, Chaudhari BL, Shouche YS. Genome sequence of _Janibacter hoylei_ MTCC8307, isolated from the stratospheric air. J Bacteriol. 2012 Dec;194(23):6629-30.  
 
 
-**Manuscripts in pre-print review:**      
+> **Manuscripts in pre-print review:**      
 
-Peng P, Lu Y, Bosma TN, Nijenhuis I, Nijsse B, **Shetty SA**, Ruecker A, Umanetc A, Ramiro-Garcia J, Kappler A, Sipkema D. Metagenomic-and cultivation-based exploration of anaerobic chloroform biotransformation in hypersaline sediments as natural source of chloromethanes. [bioRxiv.](https://www.biorxiv.org/content/10.1101/858480v1.full)  (2019).   
+**Shett, SA.**, Boeren S, Bui TPN, Smidt H, and De Vos WM, 2020. Unravelling lactate-acetate conversion to butyrate by intestinal *Anaerobutyricum* and *Anaerostipes* species. [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2020/06/09/2020.06.09.139246.full.pdf) (2020).   
 
 **Shetty SA**#. Gut microbiota features of the geographically diverse Indian population. [bioRxiv](https://www.biorxiv.org/content/10.1101/478586v1.full) (2018).     
 

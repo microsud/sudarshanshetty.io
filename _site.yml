@@ -16,6 +16,16 @@ navbar:
       href: Science_communication.html
     - text: "Other Information"
       href: Other_Informations.html
+    - text: "Coding in R for Microbiome"
+      menu:
+      - text: "Overview"  
+        href: coding_main.html
+      - text: "Basic tasks in R"   
+        href: code_basics.html
+      - text: "For loops in R"
+        href: code_loops.html
+      - text: "Customize ordination plots"
+        href: code_customize_ordination.html
 output:
   html_document:
     theme: cosmo

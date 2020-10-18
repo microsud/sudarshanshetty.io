@@ -3,7 +3,11 @@ title: "Software development"
 ---
 
 
-## Research   
+> Research   
+
+<div class="column-left">  
+</div> 
+
 **microbiome R package**  
 Lahti L, Shetty SA, Blake T and Salojarvi J. (Bioconductor)  
 DOI: 10.18129/B9.bioc.microbiome   
@@ -14,7 +18,10 @@ Shetty SA, Lahti L. (GitHub)
 [Extending and supporting R package based on microbiome and phyloseq.](https://github.com/microsud/microbiomeutilities)   
 A utility package for the parent _microbiome_ R package. Tutorial can be found [here](https://microsud.github.io/microbiomeutilities/)   
 
-## Training  
+> Training  
+
+<div class="column-left">  
+</div> 
 **microbiomeutilities-shiny**   
 Shetty SA, Lahti L. (GitHub)  
 [A web based shiny dashboard for prelimanry analysis of microbial census data.](https://gutmicrobe.shinyapps.io/microbiomeutils-shiny/)   
@@ -25,7 +32,10 @@ Shetty SA. (GitHub)
 [A web based shiny dashboard for proteomics data analysis.](https://github.com/microsud/TeachingMIB20306)   
 Teaching MIB20306: This dashboard uses data from Bui, Thi Phuong Nam, Jarmo Ritari, Sjef Boeren, Pieter De Waard, Caroline M. Plugge, and Willem M. De Vos. ["Production of butyrate from lysine and the Amadori product fructoselysine by a human gut commensal." Nature Communications 6 (2015): 10062](https://www.nature.com/articles/ncomms10062). The data has been modified/subsetted for teaching purpose.    
 
-## In development  
+> In development   
+
+<div class="column-left">  
+</div> 
 
 **syncomR**  
 [Analysis of Synthetic Microbial Communities.](https://github.com/microsud/syncomR)   
