@@ -14,6 +14,7 @@ title: "Research"
   width: 50%;
   text-align: left;
 }
+
 </style>
 
 
@@ -73,7 +74,7 @@ For more details please check our review [Reconstructing functional networks in 
 
 > Other projects     
 
-<div class="column-left">  
+<div class="column-center">  
 </div> 
 
 **Metagenomics study investigating links between dietary habits-gut microbiota-resistome.**     
@@ -82,11 +83,14 @@ For more details please check our review [Reconstructing functional networks in 
 
 ---------   
 
-<div class="column-left">
+<div class="column-center">
 </div>   
 > Research Experience  
 
-* February 2020 - Present  
+* February 2021 - Present   
+Post Doctoral Researcher at Medische microbiologie en infectiepreventie, Groningen and The Netherlands National Institute for Public Health and the Environment (Rijksinstituut voor Volksgezondheid en Milieu).   
+
+* February 2020 - Jan 2021  
 Post Doctoral Researcher at University Medical Center, Utrecht and Netherlands National Institute for Public Health and the Environment (Rijksinstituut voor Volksgezondheid en Milieu).   
 •	Immune response in elderly subjects receiving vaccine(s). Investigation of various immune parameters and microbiota.      
 
