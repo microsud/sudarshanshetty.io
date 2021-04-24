@@ -2,6 +2,8 @@
 title: "Science communication"
 ---
 
+<div class ="left">
+
 **Scientific Conferences**  
 
 *Conference Presentations (Oral)*   
@@ -15,12 +17,13 @@ title: "Science communication"
 Blog Author at Gut Microbiota for Health, created by the Gut Microbiota and Health Section of the European Society for Neurogastroenterology & Motility (ESNM), member of United European Gastroenterology (UEG).   
 * Is Blastocystis a pathobiont? Prevalence data and beyond.   
 * The Indian tribal gut microbiota unraveled.   
-* Blastocystis —a possible pathobiont— linked with greater bacterial diversity.   
+* Blastocystis —a possible pathobiont— linked with greater bacterial diversity.  
+
+</div>
 
 **Twitter:** [gutmicrobe](https://twitter.com/?lang=en)   
 
-</div>
-<center>
+<div class= "right">
 <a 
   class="twitter-timeline" href="https://twitter.com/gutmicrobe?ref_src=twsrc%5Etfw"
   data-width="300"

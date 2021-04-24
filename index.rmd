@@ -29,9 +29,7 @@ Apart from research, I enjoy academic mentoring and teaching, creating acrylic p
 }
 </style>
 <div class="column-left">
-```{r out.width='60%',fig.align='center',echo=FALSE, eval=T}
-knitr::include_graphics("images/mypic.jpg")
-```
+  <img src="images/mypic.jpg" width="60%" class="my-pic"/>
 </div> 
 
 
@@ -49,11 +47,43 @@ Dissertation at National Centre for Cell Science, Pune, India.
 *“Age Related Changes in Human Gut Flora- An Indian Familial Study”*  
 Advisor: Dr. Nachiket P. Marathe and Dr. Yogesh S Shouche  
 
+<div class="myprofile">
+<div>
+<a href="https://goo.gl/Wt1Kj9">
+  <img src="images/icons/google-scholar.svg" height="75" width="75" class="profiles" />
+</a>
+</div>
 
+<div>
+<a href="https://publons.com/researcher/1690018/sudarshan-shetty/">
+  <img src="images/icons/publons.svg" height="75" width="75" class="profiles" />
+</a>
+</div>
+
+<div>
+<a href="https://orcid.org/0000-0001-7280-9915">
+  <img src="images/icons/orcid.svg" height="75" width="75" class="profiles" />
+</a>
+</div>
+
+<div>
+<a href="https://github.com/microsud">
+  <img src="images/icons/github.svg" height="75" width="75" class="profiles" />
+</a>
+</div>
+
+<div>
+<a href="https://twitter.com/gutmicrobe">
+  <img src="images/icons/twitter.svg" height="75" width="75" class="profiles" />
+</a>
+</div>
+
+</div>
 ---------   
 
 <div class="column-center">
 </div>   
+
 > Research Experience  
 
 * February 2021 - Present   

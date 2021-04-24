@@ -1,0 +1,26 @@
+
+.open-access {
+  text-align: center;
+  width:10px;
+  height:20px;
+} 
+
+.myprofile{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+}
+
+
+.profiles {
+  margin: 1%;
+  margin-right: 10px;
+  text-align: center;
+  width:30px;
+  height:30px;
+} 
+.my-pic{
+  margin-left: 20%;
+  border-radius: 25%;
+}
