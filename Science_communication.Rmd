@@ -29,3 +29,9 @@ Blog Author at Gut Microbiota for Health, created by the Gut Microbiota and Heal
   Tweets by gutmicrobe</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
+
+---------  
+<div class="column-left">  
+</div> 
+
+<p>Copyright &copy; 2021 Sudarshan Shetty. All rights reserved.</p>

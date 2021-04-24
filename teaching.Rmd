@@ -25,4 +25,8 @@ title: "Teaching"
 
 
 
-<p>Copyright &copy; 2020 Sudarshan A. Shetty. All rights reserved.</p>
+---------  
+<div class="column-left">  
+</div> 
+
+<p>Copyright &copy; 2021 Sudarshan Shetty. All rights reserved.</p>

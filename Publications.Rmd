@@ -2,6 +2,9 @@
 title: "Select Peer-Reviewed Publications"
 ---
 
+> **2021**   
+
+Morales D, **Shetty, SA.**, López-Plaza B, Gómez-Candela C, Smidt H, Marín FR, Soler-Rivas C. Modulation of human intestinal microbiota in a clinical trial by consumption of a β-d-glucan-enriched extract obtained from Lentinula edodes. 2021 Feb 12:1-7; [European Journal of Nutrition](https://link.springer.com/article/10.1007/s00394-021-02504-4)  
 
 > **2020**   
 
@@ -80,9 +83,7 @@ Marathe N, **Shetty SA**, Lanjekar V, Ranade D, Shouche Y. Changes in human gut 
 **Shetty SA**, Dhotre DP, Shetty SA, Chowdhury SP, Chaudhari BL, Shouche YS. Genome sequence of _Janibacter hoylei_ MTCC8307, isolated from the stratospheric air. J Bacteriol. 2012 Dec;194(23):6629-30.  
 
 
-> **Manuscripts in pre-print review:**      
-
-**Shett, SA.**, Boeren S, Bui TPN, Smidt H, and De Vos WM, 2020. Unravelling lactate-acetate conversion to butyrate by intestinal *Anaerobutyricum* and *Anaerostipes* species. [bioRxiv](https://www.biorxiv.org/content/biorxiv/early/2020/06/09/2020.06.09.139246.full.pdf) (2020).   
+> **Manuscripts in pre-print:**      
 
 **Shetty SA**#. Gut microbiota features of the geographically diverse Indian population. [bioRxiv](https://www.biorxiv.org/content/10.1101/478586v1.full) (2018).     
 
@@ -92,4 +93,9 @@ Complete list of publications at [google scholar](https://goo.gl/Wt1Kj9)
 
 
 
-<p>Copyright &copy; 2020 Sudarshan A. Shetty. All rights reserved.</p>
+---------  
+<div class="column-left">  
+</div> 
+
+<p>Copyright &copy; 2021 Sudarshan Shetty. All rights reserved.</p>
+
