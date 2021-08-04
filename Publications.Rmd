@@ -2,6 +2,8 @@
 title: "Select Peer-Reviewed Publications"
 ---
 
+<img src="images/icons/open-access.svg" class = "open-access"/> Open access   
+
 > **2021**   
 
 Morales D, **Shetty, SA.**, López-Plaza B, Gómez-Candela C, Smidt H, Marín FR, Soler-Rivas C. Modulation of human intestinal microbiota in a clinical trial by consumption of a β-d-glucan-enriched extract obtained from Lentinula edodes. 2021 Feb 12:1-7; [European Journal of Nutrition](https://link.springer.com/article/10.1007/s00394-021-02504-4)   
