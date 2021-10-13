@@ -19,7 +19,13 @@ title: "Open source tools and resources"
    A utility package for the parent _microbiome_ R package. Tutorial can be found [here](https://microsud.github.io/microbiomeutilities/)   
 
    * **chkMocks**  
-   Shetty SA. (GitHub) [chkMocks is a basic R package for comparing experimental mock communities (positive controls) with theoretical (expected) composition](https://microsud.github.io/chkMocks/)  
+   Shetty SA. (GitHub) [chkMocks is a basic R package for comparing experimental mock communities (positive controls) with theoretical (expected) composition](https://microsud.github.io/chkMocks/)    
+   
+   * **syncomR**   
+   [Analysis of Synthetic Microbial Communities.](https://github.com/microsud/syncomR)   
+   Handling microbial community (MC) data with special emphasis on time series data from synthetic MCs. Bundles R
+   codes openly available in literature into functions for convenient access.   
+
 
 2. **TreeSummarizedExperiment-based tools**     
    * **microbiomeDataSets**  
@@ -70,10 +76,6 @@ Teaching MIB20306: This dashboard uses data from Bui, Thi Phuong Nam, Jarmo Rita
 
 <div class="column-left">  
 </div> 
-
-**syncomR**  
-[Analysis of Synthetic Microbial Communities.](https://github.com/microsud/syncomR)   
-Handling microbial community (MC) data with special emphasis on time series data from synthetic MCs. Bundles R codes openly available in literature into functions for convenient access.   
 
 **RIVM-Microbiome-Toolbox**  
 Tools for supporting reproducible microbiome data analysis at RIVM [more information](https://github.com/RIVM-IIV-Microbiome/biomeUtils)  
