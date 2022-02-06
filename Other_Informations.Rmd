@@ -17,8 +17,8 @@ Note: *The microbiomeutilities-shiny application was used for interactive introd
 
   
 **Grants and Awards**  
-• FEMS travel grant 2016
-• ISME young investigator travel grant 2018  
+• FEMS travel grant 2016  
+• ISME young investigator travel grant 2018   
 
 **Workshops/Summer Schools**  
 •	Summer School on Ecological Network Inference & Analysis. KU Leuven, Belgium (2017).  

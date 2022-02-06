@@ -4,6 +4,13 @@ title: "Select Peer-Reviewed Publications"
 
 <img src="images/icons/open-access.svg" class = "open-access"/> Open access   
 
+> **2022**   
+
+Stege, P.B., Hordijk, J., **Shetty, S.A.**, Visser, M., Viveen, M.C., Rogers, M.R., Gijsbers, E., Dierikx, C.M., van der Plaats, R.Q., van Duijkeren, E. and Franz, E., 2022. Impact of long-term dietary habits on the human gut resistome in the Dutch population. 12(1), pp.1-13. (2022); [Scientific Reports](https://www.nature.com/articles/s41598-022-05618-9) <img src="images/icons/open-access.svg" class = "open-access"/>         
+
+**Shetty SA**, van Beek J, Bijvank E, Groot J, Kuiling S, Bosch T, van Baarle D, Fuentes S. Associations and recovery dynamics of the nasopharyngeal microbiota during influenza-like illness in the aging population. [Scientific Reports](https://www.nature.com/articles/s41598-022-05618-9) (2022). <img src="images/icons/open-access.svg" class = "open-access"/>         
+
+
 > **2021**   
 
 Morales D, **Shetty, SA.**, López-Plaza B, Gómez-Candela C, Smidt H, Marín FR, Soler-Rivas C. Modulation of human intestinal microbiota in a clinical trial by consumption of a β-d-glucan-enriched extract obtained from Lentinula edodes. 2021 Feb 12:1-7; [European Journal of Nutrition](https://link.springer.com/article/10.1007/s00394-021-02504-4)   
@@ -86,8 +93,6 @@ Marathe N, **Shetty SA**, Lanjekar V, Ranade D, Shouche Y. Changes in human gut 
 
 
 > **Manuscripts in pre-print:**      
-
-**Shetty SA**, van Beek J, Bijvank E, Groot J, Kuiling S, Bosch T, van Baarle D, Fuentes S. Associations and recovery dynamics of the nasopharyngeal microbiota during influenza-like illness in the aging population. [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.09.14.458655v1) (2021). <img src="images/icons/open-access.svg" class = "open-access"/>               
 
 **Shetty SA**#. Gut microbiota features of the geographically diverse Indian population. [bioRxiv](https://www.biorxiv.org/content/10.1101/478586v1.full) (2018). <img src="images/icons/open-access.svg" class = "open-access"/>               
 
