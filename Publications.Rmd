@@ -6,7 +6,7 @@ title: "Select Peer-Reviewed Publications"
 
 > **2022**   
 
-Stege, P.B., Hordijk, J., **Shetty, S.A.**, Visser, M., Viveen, M.C., Rogers, M.R., Gijsbers, E., Dierikx, C.M., van der Plaats, R.Q., van Duijkeren, E. and Franz, E., 2022. Impact of long-term dietary habits on the human gut resistome in the Dutch population. 12(1), pp.1-13. (2022); [Scientific Reports](https://www.nature.com/articles/s41598-022-05618-9) <img src="images/icons/open-access.svg" class = "open-access"/>         
+Stege PB, Hordijk J, Shetty SA, Visser M, Viveen MC, Rogers MR, Gijsbers E, Dierikx CM, van der Plaats RQ, van Duijkeren E, Franz E. Willems RJL, Fuentes S,  Paganelli FL. Impact of long-term dietary habits on the human gut resistome in the Dutch population. 12(1), pp.1-13. (2022); [Scientific Reports](https://www.nature.com/articles/s41598-022-05618-9) <img src="images/icons/open-access.svg" class = "open-access"/>         
 
 **Shetty SA**, van Beek J, Bijvank E, Groot J, Kuiling S, Bosch T, van Baarle D, Fuentes S. Associations and recovery dynamics of the nasopharyngeal microbiota during influenza-like illness in the aging population. [Scientific Reports](https://www.nature.com/articles/s41598-022-05618-9) (2022). <img src="images/icons/open-access.svg" class = "open-access"/>         
 
