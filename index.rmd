@@ -1,5 +1,5 @@
 ---
-title: "Sudarshan Shetty"
+title: "Sudarshan A. Shetty"
 ---
 
 -------------------
@@ -15,23 +15,6 @@ Currently, I am a Post-Doc at the Dept. of Medical Microbiology and Infection Pr
 Apart from research, I enjoy academic mentoring and teaching, creating acrylic paintings and consider my self an amateur chef. 
 
 ---------  
-<style>
-.column-left{
-  float: left;
-  width: 50%;
-  text-align: left;
-}
-
-.column-right{
-  float: right;
-  width: 50%;
-  text-align: left;
-}
-</style>
-<div class="column-left">
-  <img src="images/mypic.jpg" width="60%" class="my-pic"/>
-</div> 
-
 
 **Education**  
 
@@ -115,4 +98,4 @@ Junior Research Fellow, National Centre for Cell Science.
 <div class="column-left">  
 </div> 
 
-<p>Copyright &copy; 2021 Sudarshan Shetty. All rights reserved.</p>
+<p>Copyright &copy; 2022 Sudarshan Shetty. All rights reserved.</p>

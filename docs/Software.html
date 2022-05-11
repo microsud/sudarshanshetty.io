@@ -13,7 +13,7 @@
 
 <title>Open source tools and resources</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="portfolio.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -287,28 +291,50 @@ $(document).ready(function () {
 <li><strong>Phyloseq-based tools</strong>
 <ul>
 <li><p><strong>microbiome R package</strong><br />
-Lahti L, Shetty SA, Blake T and Salojarvi J. (Bioconductor) <a href="https://doi.org/doi:10.18129/B9.bioc.microbiome">An R package for microbial community analysis</a>.<br />
-Tutorials can be found <a href="https://microbiome.github.io/tutorials/">here</a>.</p></li>
+Lahti L, Shetty SA, Blake T and Salojarvi J. (Bioconductor) <a
+href="https://doi.org/doi:10.18129/B9.bioc.microbiome">An R package for
+microbial community analysis</a>.<br />
+Tutorials can be found <a
+href="https://microbiome.github.io/tutorials/">here</a>.</p></li>
 <li><p><strong>microbiomeutilities</strong><br />
-Shetty SA, Lahti L. (GitHub) <a href="https://github.com/microsud/microbiomeutilities">Extending and supporting R package based on microbiome and phyloseq.</a><br />
-A utility package for the parent <em>microbiome</em> R package. Tutorial can be found <a href="https://microsud.github.io/microbiomeutilities/">here</a></p></li>
+Shetty SA, Lahti L. (GitHub) <a
+href="https://github.com/microsud/microbiomeutilities">Extending and
+supporting R package based on microbiome and phyloseq.</a><br />
+A utility package for the parent <em>microbiome</em> R package. Tutorial
+can be found <a
+href="https://microsud.github.io/microbiomeutilities/">here</a></p></li>
 <li><p><strong>chkMocks</strong><br />
-Shetty SA. (GitHub) <a href="https://microsud.github.io/chkMocks/">chkMocks is a basic R package for comparing experimental mock communities (positive controls) with theoretical (expected) composition</a></p></li>
+Shetty SA. (GitHub) <a
+href="https://microsud.github.io/chkMocks/">chkMocks is a basic R
+package for comparing experimental mock communities (positive controls)
+with theoretical (expected) composition</a></p></li>
 <li><p><strong>syncomR</strong><br />
-<a href="https://github.com/microsud/syncomR">Analysis of Synthetic Microbial Communities.</a><br />
-Handling microbial community (MC) data with special emphasis on time series data from synthetic MCs. Bundles R codes openly available in literature into functions for convenient access.</p></li>
+<a href="https://github.com/microsud/syncomR">Analysis of Synthetic
+Microbial Communities.</a><br />
+Handling microbial community (MC) data with special emphasis on time
+series data from synthetic MCs. Bundles R codes openly available in
+literature into functions for convenient access.</p></li>
 </ul></li>
 <li><strong>TreeSummarizedExperiment-based tools</strong>
 <ul>
 <li><p><strong>microbiomeDataSets</strong><br />
-Ernst F, Lahti L, Shetty S (2021). <a href="https://www.bioconductor.org/packages/devel/data/experiment/html/microbiomeDataSets.html">microbiomeDataSets: Experiment Hub based microbiome datasets</a>.<br />
-<em>microbiomeDataSets</em> is a collection of microbiome datasets loaded from Bioconductor’s ExperimentHub infrastructure.</p></li>
+Ernst F, Lahti L, Shetty S (2021). <a
+href="https://www.bioconductor.org/packages/devel/data/experiment/html/microbiomeDataSets.html">microbiomeDataSets:
+Experiment Hub based microbiome datasets</a>.<br />
+<em>microbiomeDataSets</em> is a collection of microbiome datasets
+loaded from Bioconductor’s ExperimentHub infrastructure.</p></li>
 <li><p><strong>mia</strong><br />
-Ernst F, Shetty S, Borman T, Lahti L (2021). <a href="https://www.bioconductor.org/packages/devel/bioc/html/mia.html">mia: Microbiome analysis</a><br />
-<em>mia</em> implements tools for microbiome analysis based on the SummarizedExperiment, SingleCellExperiment and TreeSummarizedExperiment infrastructure.</p></li>
+Ernst F, Shetty S, Borman T, Lahti L (2021). <a
+href="https://www.bioconductor.org/packages/devel/bioc/html/mia.html">mia:
+Microbiome analysis</a><br />
+<em>mia</em> implements tools for microbiome analysis based on the
+SummarizedExperiment, SingleCellExperiment and TreeSummarizedExperiment
+infrastructure.</p></li>
 </ul></li>
 </ol>
-<p>More information on our efforts on expanding the the <a href="https://microbiome.github.io/">R/Bioc microbiome ecosystem with SummarizedExperiment</a></p>
+<p>More information on our efforts on expanding the the <a
+href="https://microbiome.github.io/">R/Bioc microbiome ecosystem with
+SummarizedExperiment</a></p>
 <hr />
 <div id="training" class="section level4">
 <h4><strong>Training</strong></h4>
@@ -317,12 +343,22 @@ Ernst F, Shetty S, Borman T, Lahti L (2021). <a href="https://www.bioconductor.o
 </div>
 <p>• <strong>microbiomeutilities-shiny</strong><br />
 Shetty SA, Lahti L. (GitHub)<br />
-<a href="https://gutmicrobe.shinyapps.io/microbiomeutils-shiny/">A web based shiny dashboard for prelimanry analysis of microbial census data.</a><br />
-This shiny app is used for teaching basic 16S rRNA gene based microbial community analysis.</p>
+<a href="https://gutmicrobe.shinyapps.io/microbiomeutils-shiny/">A web
+based shiny dashboard for prelimanry analysis of microbial census
+data.</a><br />
+This shiny app is used for teaching basic 16S rRNA gene based microbial
+community analysis.</p>
 <p>• <strong>TeachingMIB20306</strong><br />
 Shetty SA. (GitHub)<br />
-<a href="https://github.com/microsud/TeachingMIB20306">A web based shiny dashboard for proteomics data analysis.</a><br />
-Teaching MIB20306: This dashboard uses data from Bui, Thi Phuong Nam, Jarmo Ritari, Sjef Boeren, Pieter De Waard, Caroline M. Plugge, and Willem M. De Vos. <a href="https://www.nature.com/articles/ncomms10062">“Production of butyrate from lysine and the Amadori product fructoselysine by a human gut commensal.” Nature Communications 6 (2015): 10062</a>. The data has been modified/subsetted for teaching purpose.</p>
+<a href="https://github.com/microsud/TeachingMIB20306">A web based shiny
+dashboard for proteomics data analysis.</a><br />
+Teaching MIB20306: This dashboard uses data from Bui, Thi Phuong Nam,
+Jarmo Ritari, Sjef Boeren, Pieter De Waard, Caroline M. Plugge, and
+Willem M. De Vos. <a
+href="https://www.nature.com/articles/ncomms10062">“Production of
+butyrate from lysine and the Amadori product fructoselysine by a human
+gut commensal.” Nature Communications 6 (2015): 10062</a>. The data has
+been modified/subsetted for teaching purpose.</p>
 <hr />
 </div>
 <div id="open-data-and-resources" class="section level4">
@@ -330,10 +366,23 @@ Teaching MIB20306: This dashboard uses data from Bui, Thi Phuong Nam, Jarmo Rita
 <div class="column-left">
 
 </div>
-<p>• Lahti L, Shetty SA, Ernst F (2021) <a href="https://microbiome.github.io/OMA/">Orchestrating Microbiome Analysis</a></p>
-<p>• Shetty SA &amp; Lahti L (2018). <a href="https://microsud.github.io/Tools-Microbiome-Analysis/">A list of R environment based tools for 16S rRNA gene data exploration, statistical analysis and visualization</a> Zenodo. <a href="http://doi.org/10.5281/zenodo.1256879" class="uri">http://doi.org/10.5281/zenodo.1256879</a>.</p>
-<p>• Shetty SA, Lahti L, Hermes Gerben DA, &amp; Smidt H. (2018, September 27). Microbial bioinformatics introductory course material 2018 (Version 0.01). Zenodo. <a href="http://doi.org/10.5281/zenodo.1436630" class="uri">http://doi.org/10.5281/zenodo.1436630</a>.</p>
-<p>• GitHub repositories: <a href="https://github.com/microsud?tab=repositories" class="uri">https://github.com/microsud?tab=repositories</a>.</p>
+<p>• Lahti L, Shetty SA, Ernst F (2021) <a
+href="https://microbiome.github.io/OMA/">Orchestrating Microbiome
+Analysis</a></p>
+<p>• Shetty SA &amp; Lahti L (2018). <a
+href="https://microsud.github.io/Tools-Microbiome-Analysis/">A list of R
+environment based tools for 16S rRNA gene data exploration, statistical
+analysis and visualization</a> Zenodo. <a
+href="http://doi.org/10.5281/zenodo.1256879"
+class="uri">http://doi.org/10.5281/zenodo.1256879</a>.</p>
+<p>• Shetty SA, Lahti L, Hermes Gerben DA, &amp; Smidt H. (2018,
+September 27). Microbial bioinformatics introductory course material
+2018 (Version 0.01). Zenodo. <a
+href="http://doi.org/10.5281/zenodo.1436630"
+class="uri">http://doi.org/10.5281/zenodo.1436630</a>.</p>
+<p>• GitHub repositories: <a
+href="https://github.com/microsud?tab=repositories"
+class="uri">https://github.com/microsud?tab=repositories</a>.</p>
 <hr />
 </div>
 <div id="in-development" class="section level4">
@@ -342,7 +391,9 @@ Teaching MIB20306: This dashboard uses data from Bui, Thi Phuong Nam, Jarmo Rita
 
 </div>
 <p><strong>RIVM-Microbiome-Toolbox</strong><br />
-Tools for supporting reproducible microbiome data analysis at RIVM <a href="https://github.com/RIVM-IIV-Microbiome/biomeUtils">more information</a></p>
+Tools for supporting reproducible microbiome data analysis at RIVM <a
+href="https://github.com/RIVM-IIV-Microbiome/biomeUtils">more
+information</a></p>
 <hr />
 <div class="column-left">
 

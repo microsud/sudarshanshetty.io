@@ -13,7 +13,7 @@
 
 <title>Science communication</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="portfolio.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -283,18 +287,41 @@ $(document).ready(function () {
 <div class="left">
 <p><strong>Scientific Conferences</strong></p>
 <p><em>Conference Presentations (Oral)</em><br />
-• Shetty SA, Kuipers B, Atashgahi S, Smidt H, de Vos WM. Unravelling the ecophysiological dynamics of core human intestinal bacteria in a defined consortium. KNVM 2019.(Invited talk)<br />
-• Shetty SA, Lahti L, Smidt H, de Vos WM. Unravelling the ecophysiological dynamics of core human intestinal bacteria in a defined consortium. International Conference on Microbiome Research (ICMR) 2018, India.(Best oral presentation award)<br />
-• Shetty SA, Hugenholtz F, Lahti L, Smidt H, de Vos WM. Intestinal microbiome landscape of Western adults - Phylogenetic core and its functionality. INRA-Rowett 2016, Clermont-Ferrand, France.<br />
-• Shetty SA, Bui TP, Lagkouvardos I, Ritari J, Chamlagain B, Douillard FP, Paulin L, Piironen V, Clavel T, Plugge CM, de Vos WM. Comparative genomics of Intestinimonas butyriciproducens, a lysine utilizing and butyrate producing bacteria in the human gut. The Netherlands Microbiology society (KNVM &amp; NVMM) 2016.<br />
-• Shetty SA, Dhotre DP, Bhatia K, Verma AK, Mishra A, Ahuja V, Makharia GK, Shouche YS. Ultra-deep high-throughput sequencing of intestinal microbiota in celiac disease and first-degree relatives and effect of gluten free diet on them. The 54th Annual conference of Indian Society of Gastroenterology conference 2013.</p>
+• Shetty SA. Open source tools and resources to tackle challenges in
+microbiota data science. DDC Informatics User Group (Virtual) Meeting
+(Texas, U.S.A) 2019 (<em>Invited talk</em>).</p>
+<p>• Shetty SA, Kuipers B, Atashgahi S, Smidt H, de Vos WM. Unravelling
+the ecophysiological dynamics of core human intestinal bacteria in a
+defined consortium. KNVM 2019.(<em>Invited talk</em>)</p>
+<p>• Shetty SA, Lahti L, Smidt H, de Vos WM. Unravelling the
+ecophysiological dynamics of core human intestinal bacteria in a defined
+consortium. International Conference on Microbiome Research (ICMR) 2018,
+India.(<em>Best oral presentation award</em>)</p>
+<p>• Shetty SA, Hugenholtz F, Lahti L, Smidt H, de Vos WM. Intestinal
+microbiome landscape of Western adults - Phylogenetic core and its
+functionality. INRA-Rowett 2016, Clermont-Ferrand, France.</p>
+<p>• Shetty SA, Bui TP, Lagkouvardos I, Ritari J, Chamlagain B,
+Douillard FP, Paulin L, Piironen V, Clavel T, Plugge CM, de Vos WM.
+Comparative genomics of Intestinimonas butyriciproducens, a lysine
+utilizing and butyrate producing bacteria in the human gut. The
+Netherlands Microbiology society (KNVM &amp; NVMM) 2016.</p>
+<p>• Shetty SA, Dhotre DP, Bhatia K, Verma AK, Mishra A, Ahuja V,
+Makharia GK, Shouche YS. Ultra-deep high-throughput sequencing of
+intestinal microbiota in celiac disease and first-degree relatives and
+effect of gluten free diet on them. The 54th Annual conference of Indian
+Society of Gastroenterology conference 2013.</p>
 <p><strong>General</strong><br />
-Blog Author at Gut Microbiota for Health, created by the Gut Microbiota and Health Section of the European Society for Neurogastroenterology &amp; Motility (ESNM), member of United European Gastroenterology (UEG).<br />
+Blog Author at Gut Microbiota for Health, created by the Gut Microbiota
+and Health Section of the European Society for Neurogastroenterology
+&amp; Motility (ESNM), member of United European Gastroenterology
+(UEG).<br />
 * Is Blastocystis a pathobiont? Prevalence data and beyond.<br />
 * The Indian tribal gut microbiota unraveled.<br />
-* Blastocystis —a possible pathobiont— linked with greater bacterial diversity.</p>
+* Blastocystis —a possible pathobiont— linked with greater bacterial
+diversity.</p>
 </div>
-<p><strong>Twitter:</strong> <a href="https://twitter.com/?lang=en">gutmicrobe</a></p>
+<p><strong>Twitter:</strong> <a
+href="https://twitter.com/?lang=en">gutmicrobe</a></p>
 <div class="right">
 <a 
   class="twitter-timeline" href="https://twitter.com/gutmicrobe?ref_src=twsrc%5Etfw"
@@ -308,7 +335,7 @@ Blog Author at Gut Microbiota for Health, created by the Gut Microbiota and Heal
 
 </div>
 <p>
-Copyright © 2021 Sudarshan Shetty. All rights reserved.
+Copyright © 2022 Sudarshan Shetty. All rights reserved.
 </p>
 
 

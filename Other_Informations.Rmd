@@ -25,10 +25,15 @@ Note: *The microbiomeutilities-shiny application was used for interactive introd
 •	Summer School in Biomedical Research and Public Health: Microbial Genomics & Metagenomics Workshop. FISABIO, Valencia (2016).  
 •	Second International Next Generation Sequencing Data Analysis Workshop organized by Persistent Systems Ltd. at Pune, Maharashtra, India (2012).  
 
+**Peer-review activities**   
+Research articles: Microbiome, ISME Journal, Probiotics and Antimicrobial Proteins, Animal Microbiome, Microorganisms, PLoS One, Journal of Microbiological Methods, Frontiers in Cellular and Infection Microbiology, Microbiology Spectrum, Anaerobe, Journal of Clinical Medicine, Bioinformatics.   
+Grants: French National Research Agency   
 
+**Editorial duties**  
+Junior Editor for [Microbiome Research Reports](https://oaepublish.com/mrr/editorsChief/index)   
 
 ---------  
 <div class="column-left">  
 </div> 
 
-<p>Copyright &copy; 2021 Sudarshan Shetty. All rights reserved.</p>
+<p>Copyright &copy; 2022 Sudarshan Shetty. All rights reserved.</p>

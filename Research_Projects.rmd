@@ -39,6 +39,7 @@ knitr::include_graphics("images/HMI.png")
 Investigation of elderly microbiota presents unique challenges with respect to identifying biomarkers of health and disease. The stability of microbiota may decrease with increasing age. One key question is to understanding 'normal' microbiota of elderly compared to those with respiratory infections. In the project, we will investigate the microbiota of elderly subjects from the Netherlands part of the ILI Cohort. For details of the cohort check this article by [Van Beek J, et al. Influenza-like illness incidence is not reduced by influenza vaccination in a cohort of older adults, despite effectively reducing laboratory-confirmed influenza virus infections. The Journal of infectious diseases. 2017 Aug 15;216(4):415-24.](https://academic.oup.com/jid/article/216/4/415/3958807).    
 
 
+
 <div class="column-left">  
 </div> 
 **Vaccines and InfecTious diseases in the Ageing popuLation (VITAL)**   
@@ -95,4 +96,4 @@ knitr::include_graphics("images/network.jpg")
 <div class="column-left">  
 </div> 
 
-<p>Copyright &copy; 2021 Sudarshan Shetty. All rights reserved.</p>
+<p>Copyright &copy; 2022 Sudarshan Shetty. All rights reserved.</p>

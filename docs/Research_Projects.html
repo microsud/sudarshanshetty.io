@@ -13,7 +13,7 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="portfolio.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -298,7 +302,9 @@ $(document).ready(function () {
 <p><img src="images/Ecological.png" width="60%" style="display: block; margin: auto;" /></p>
 </div>
 <p><strong>Research interests</strong><br />
-Host-microbe interactions, Microbe-microbe interactions, Integrated multi-omics data analysis, Synthetic microbial communities, Reproducible and open research data and tools.</p>
+Host-microbe interactions, Microbe-microbe interactions, Integrated
+multi-omics data analysis, Synthetic microbial communities, Reproducible
+and open research data and tools.</p>
 <hr />
 <blockquote>
 <p>Current research</p>
@@ -307,12 +313,28 @@ Host-microbe interactions, Microbe-microbe interactions, Integrated multi-omics 
 <p><img src="images/HMI.png" width="80%" style="display: block; margin: auto;" /></p>
 </div>
 <p><strong>Elderly microbiota and respiratory diseases</strong><br />
-Investigation of elderly microbiota presents unique challenges with respect to identifying biomarkers of health and disease. The stability of microbiota may decrease with increasing age. One key question is to understanding ‘normal’ microbiota of elderly compared to those with respiratory infections. In the project, we will investigate the microbiota of elderly subjects from the Netherlands part of the ILI Cohort. For details of the cohort check this article by <a href="https://academic.oup.com/jid/article/216/4/415/3958807">Van Beek J, et al. Influenza-like illness incidence is not reduced by influenza vaccination in a cohort of older adults, despite effectively reducing laboratory-confirmed influenza virus infections. The Journal of infectious diseases. 2017 Aug 15;216(4):415-24.</a>.</p>
+Investigation of elderly microbiota presents unique challenges with
+respect to identifying biomarkers of health and disease. The stability
+of microbiota may decrease with increasing age. One key question is to
+understanding ‘normal’ microbiota of elderly compared to those with
+respiratory infections. In the project, we will investigate the
+microbiota of elderly subjects from the Netherlands part of the ILI
+Cohort. For details of the cohort check this article by <a
+href="https://academic.oup.com/jid/article/216/4/415/3958807">Van Beek
+J, et al. Influenza-like illness incidence is not reduced by influenza
+vaccination in a cohort of older adults, despite effectively reducing
+laboratory-confirmed influenza virus infections. The Journal of
+infectious diseases. 2017 Aug 15;216(4):415-24.</a>.</p>
 <div class="column-left">
 
 </div>
-<p><strong>Vaccines and InfecTious diseases in the Ageing popuLation (VITAL)</strong><br />
-This is a multidisciplinary research with numerous academic and industrial partners. The consortium academic leader is Dr. Debbie van Baarle, professor of Immunology of Vaccinations at UMC Groningen. For more information on the project <a href="https://www.rivm.nl/node/138561">click here</a>.</p>
+<p><strong>Vaccines and InfecTious diseases in the Ageing popuLation
+(VITAL)</strong><br />
+This is a multidisciplinary research with numerous academic and
+industrial partners. The consortium academic leader is Dr. Debbie van
+Baarle, professor of Immunology of Vaccinations at UMC Groningen. For
+more information on the project <a
+href="https://www.rivm.nl/node/138561">click here</a>.</p>
 <hr />
 <blockquote>
 <p>On-going Collaborations</p>
@@ -320,16 +342,36 @@ This is a multidisciplinary research with numerous academic and industrial partn
 <div class="column-left">
 <p><img src="images/hmp_core.png" width="50%" style="display: block; margin: auto;" /></p>
 </div>
-<p><strong>Ecophysiology of Core Human Intestinal Bacteria</strong><br />
-In this project, we aim to understand the physiology and role of the core bacteria that have been identified by us. We use basic anaerobic microbiology techniques supported by genomics, proteomics and may be also transcriptomics. The goal here is to better understand these microbes before they can be used to next generation of therapeutic. For more details please click on the <a href="https://academic.oup.com/femsre/article-lookup/doi/10.1093/femsre/fuw045">link</a> to check the publication for a list of interesting core bacteria in human gut.<br />
-<strong>Laboratory of Microbiology, Wageningen University and Research</strong></p>
+<p><strong>Ecophysiology of Core Human Intestinal
+Bacteria</strong><br />
+In this project, we aim to understand the physiology and role of the
+core bacteria that have been identified by us. We use basic anaerobic
+microbiology techniques supported by genomics, proteomics and may be
+also transcriptomics. The goal here is to better understand these
+microbes before they can be used to next generation of therapeutic. For
+more details please click on the <a
+href="https://academic.oup.com/femsre/article-lookup/doi/10.1093/femsre/fuw045">link</a>
+to check the publication for a list of interesting core bacteria in
+human gut.<br />
+<strong>Laboratory of Microbiology, Wageningen University and
+Research</strong></p>
 <div class="column-left">
 <p><img src="images/syncom.png" width="40%" style="display: block; margin: auto;" /></p>
 </div>
 <p><strong>Towards minimal microbiome</strong><br />
-In this study, we aim to study ecological and physiological dynamics of key bacterial strains in defined microbial communities. We also aim to address challenges in data acquisition, integration and visualization in such studies. The combination of multi-omics and basic anaerobic physiology is expected to give crucial insights into the resilience, stability and functional networks under well defined growth condtions.<br />
-For more details please check our review <a href="https://www.sciencedirect.com/science/article/pii/S0958166918302301">Reconstructing functional networks in the human intestinal tract using synthetic microbiomes</a>.</p>
-<p><strong>Laboratory of Microbiology, Wageningen University and Research</strong></p>
+In this study, we aim to study ecological and physiological dynamics of
+key bacterial strains in defined microbial communities. We also aim to
+address challenges in data acquisition, integration and visualization in
+such studies. The combination of multi-omics and basic anaerobic
+physiology is expected to give crucial insights into the resilience,
+stability and functional networks under well defined growth
+condtions.<br />
+For more details please check our review <a
+href="https://www.sciencedirect.com/science/article/pii/S0958166918302301">Reconstructing
+functional networks in the human intestinal tract using synthetic
+microbiomes</a>.</p>
+<p><strong>Laboratory of Microbiology, Wageningen University and
+Research</strong></p>
 <hr />
 <blockquote>
 <p>Other projects</p>
@@ -338,11 +380,14 @@ For more details please check our review <a href="https://www.sciencedirect.com/
 <p><img src="images/network.jpg" width="40%" style="display: block; margin: auto;" /></p>
 </div>
 <ul>
-<li><strong>Metagenomics study investigating links between dietary habits-gut microbiota-resistome</strong><br />
+<li><strong>Metagenomics study investigating links between dietary
+habits-gut microbiota-resistome</strong><br />
 </li>
-<li><strong>Metagenomics guided investigation of the impact of bacteriophage on faecal microbiota <em>in-vitro</em> </strong><br />
+<li><strong>Metagenomics guided investigation of the impact of
+bacteriophage on faecal microbiota <em>in-vitro</em> </strong><br />
 </li>
-<li><strong>Development of tools for microbiota analysis (see Software section)</strong></li>
+<li><strong>Development of tools for microbiota analysis (see Software
+section)</strong></li>
 </ul>
 <div class="column-left">
 
@@ -354,7 +399,7 @@ For more details please check our review <a href="https://www.sciencedirect.com/
 
 </div>
 <p>
-Copyright © 2021 Sudarshan Shetty. All rights reserved.
+Copyright © 2022 Sudarshan Shetty. All rights reserved.
 </p>
 
 
