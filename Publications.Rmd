@@ -6,7 +6,7 @@ title: "Select Peer-Reviewed Publications"
 
 > **2022**   
 
-**Shetty SA<sup>#</sup>**, Kostopoulos I<sup>#</sup>, Geerlings SY<sup>#</sup>, Smidt H, de Vos WM, Belzer C. Dynamic metabolic interactions and trophic roles of human gut microbes identified using a minimal microbiome exhibiting ecological properties. [ISME Journal]() (*Accepted*) (2022). <sup>#</sup>Equal first co-authors  
+**Shetty SA<sup>#</sup>**, Kostopoulos I<sup>#</sup>, Geerlings SY<sup>#</sup>, Smidt H, de Vos WM, Belzer C. Dynamic metabolic interactions and trophic roles of human gut microbes identified using a minimal microbiome exhibiting ecological properties. [The ISME Journal](https://doi.org/10.1038/s41396-022-01255-2) June (2022). <sup>#</sup>Equal first co-authors    
 
 **Shetty SA**, Kuipers B, Atashgahi S, Aalvink S, Smidt H, de Vos WM. Inter-species Metabolic Interactions in an In-vitro Minimal Human Gut Microbiome of Core Bacteria. Apr 8;8(1):1-3. (2022); [npj Biofilms and Microbiomes](https://doi.org/10.1038/s41522-022-00275-2). <img src="images/icons/open-access.svg" class = "open-access"/>         
 
