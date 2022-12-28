@@ -1,8 +1,8 @@
 trash
 # Quarto
 /.quarto/
-#/_site/
-#.quarto/
+/_site/
+.quarto/
 # R data
 *.rds
 *.RDS
@@ -12,11 +12,6 @@ trash
 *.Rda
 # R Environment Variables
 .Renviron
-
-# Mac
-.DS_Store
-.Thumbs.db
-Thumbs.db
 
 # R projects 
 *.Rproj
@@ -43,5 +38,4 @@ Thumbs.db
 # RStudio files
 .Rproj.user
 /.Rproj.user/
-.DS_Store
 /.quarto/
