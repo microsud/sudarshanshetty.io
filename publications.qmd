@@ -1,0 +1,81 @@
+---
+title: "Publications"  
+---
+
+[*Google Scholar Profile.*](https://scholar.google.co.in/citations?user=Vahc6LUAAAAJ&hl=en)
+
+## Peer-reviewed Publications
+
+**37. Species-Specific Patterns of Gut Metabolic Modules in Dutch Individuals with Different Dietary Habits.** **Shetty SA**, Stege PB, Hordijk J, Gijsbers E, Dierikx CM, van Duijkeren E, Franz E, Willems RJ, Paganelli FL, Fuentes S. [Msphere](https://journals.asm.org/doi/full/10.1128/msphere.00512-22). 2022 Dec 21;7(6):e00512-22.
+
+**36. Identification of aging‐associated immunotypes and immune stability as indicators of post‐vaccination immune activatio**n Cevirgel A, **Shetty SA**, Vos M, Nanlohy NM, Beckers L, Bijvank E, Rots N, van Beek J, Buisman AM, van Baarle D. [Aging Cell](https://onlinelibrary.wiley.com/doi/pdf/10.1111/acel.13703). 2022 Oct;21(10):e13703.
+
+**35. An in vitro fermentation model to study the impact of bacteriophages targeting Shiga toxin-encoding Escherichia coli on the colonic microbiota.** Pinto G, **Shetty SA**, Zoetendal EG, Gonçalves RF, Pinheiro AC, Almeida C, Azeredo J, Smidt H. [npj Biofilms and Microbiomes](https://www.nature.com/articles/s41522-022-00334-8). 2022 Sep 26;8(1):1-0.
+
+**34. Dynamic metabolic interactions and trophic roles of human gut microbes identified using a minimal microbiome exhibiting ecological properties.** **Shetty SA**<sup>\#</sup>, Kostopoulos I<sup>\#</sup>, Geerlings SY<sup>\#</sup>, Smidt H, de Vos WM, Belzer C. [The ISME Journal](https://doi.org/10.1038/s41396-022-01255-2) June (2022). <sup>\#</sup>Equal first co-authors
+
+**33. Inter-species Metabolic Interactions in an In-vitro Minimal Human Gut Microbiome of Core Bacteria.** **Shetty SA**, Kuipers B, Atashgahi S, Aalvink S, Smidt H, de Vos WM. Apr 8;8(1):1-3. (2022); [npj Biofilms and Microbiomes](https://doi.org/10.1038/s41522-022-00275-2).
+
+**32. Impact of long-term dietary habits on the human gut resistome in the Dutch population.** Stege PB, Hordijk J, **Shetty SA**, Visser M, Viveen MC, Rogers MR, Gijsbers E, Dierikx CM, van der Plaats RQ, van Duijkeren E, Franz E. Willems RJL, Fuentes S, Paganelli FL. 12(1), pp.1-13. (2022); [Scientific Reports](https://www.nature.com/articles/s41598-022-05618-9)
+
+**31. Associations and recovery dynamics of the nasopharyngeal microbiota during influenza-like illness in the aging population.** **Shetty SA**, van Beek J, Bijvank E, Groot J, Kuiling S, Bosch T, van Baarle D, Fuentes S. [Scientific Reports](https://www.nature.com/articles/s41598-022-05618-9) (2022).
+
+**30. Modulation of human intestinal microbiota in a clinical trial by consumption of a β-d-glucan-enriched extract obtained from Lentinula edodes.** Morales D, **Shetty, SA.**, López-Plaza B, Gómez-Candela C, Smidt H, Marín FR, Soler-Rivas C. [European Journal of Nutrition](https://link.springer.com/article/10.1007/s00394-021-02504-4); 2021 Feb 12:1-7.
+
+**29. Unravelling lactate‐acetate and sugar conversion into butyrate by intestinal *Anaerobutyricum* and *Anaerostipes* species by comparative proteogenomics.** **Shetty, SA.**, Boeren S, Bui TPN, Smidt H, and De Vos WM, 2020. 2020 October; [Environmental Microbiology](https://sfamjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1462-2920.15269)
+
+**28. Biosulfidogenesis mediates natural attenuation in acidic mine pit lakes.** Van der Graaf CM, Sánchez-España J, Yusta I, Ilin A, **Shetty SA**, Bale NJ, Villanueva L, Stams AJ, Sánchez-Andrea I. [Microorganisms](https://doi.org/10.3390/microorganisms8091275). 2020 Sep;8(9):1275.
+
+**27. Metagenomic Analysis of Regularly Microwave-Treated and Untreated Domestic Kitchen Sponges.** Jacksch S, Thota J, **Shetty S**, Smidt H, Schnell S, Egert M. [Microorganisms](https://doi.org/10.3390/microorganisms8050736). 2020 May;8(5):736.
+
+**26. Metagenomic-and cultivation-based exploration of anaerobic chloroform biotransformation in hypersaline sediments as natural source of chloromethanes.** Peng P, Lu Y, Bosma TN, Nijenhuis I, Nijsse B, **Shetty SA**, Ruecker A, Umanets A, Ramiro-Garcia J, Kappler A, Sipkema D. [Microorganisms](https://doi.org/10.3390/microorganisms8050665). 2020 May;8(5):665.
+
+**25. Multi-kingdom characterization of the core equine fecal microbiota based on multiple equine (sub)species.** Edwards JE, **Shetty SA**, van den Berg P, Burden F, van Doorn DA, Pellikaan WF, Dijkstra J, Smidt H. [Animal Microbiome](https://animalmicrobiome.biomedcentral.com/articles/10.1186/s42523-020-0023-1) 2020 2:6
+
+**24. Cultivation of Bacteria From Aplysina aerophoba: Effects of Oxygen and Nutrient Gradients.** Gutleben J, Loureiro C, Ramírez Romero LA, **Shetty S**, Wijffels RH, Smidt H, Sipkema D. [Frontiers in Microbiology](https://www.frontiersin.org/articles/10.3389/fmicb.2020.00175/full#h1). 2020 Feb 19;11:175.
+
+**23. Microbiome data science.** **Shetty SA**, Lahti L. [Journal of biosciences](https://www.ias.ac.in/article/fulltext/jbsc/044/05/0115). 2019 Dec 1;44(5):115.
+
+**22. Molecular ecology of the yet uncultured bacterial Ct85-cluster in the mammalian gut.** Hynönen U, Zoetendal EG, Virtala AM, **Shetty S**, Hasan S, Jakava-Viljanen M, de Vos WM, Palva A. [Anaerobe](https://doi.org/10.1016/j.anaerobe.2019.102104). 2019 Sep 25:102104.
+
+**21. Reconstructing functional networks in the human intestinal tract using synthetic microbiomes.** **Shetty SA**, Smidt H, de Vos WM. [Current Opinion in Biotechnology](https://doi.org/10.1016/j.copbio.2019.03.009). 2019 Aug 1;58:146-54.
+
+**20. Comparison of Small Gut and Whole Gut Microbiota of First-Degree Relatives with Adult Patients with Celiac Disease and Controls.** Bodkhe R, **Shetty SA**, Dhotre DP, Verma AK, Bhatia K, Mishra A, Kaur G, Pande P, Bangarusamy DK, Santosh BP, Perumal RC, Ahuja V, Makharia GK, Shouche YS. [Front Microbiol](https://doi.org/10.3389/fmicb.2019.00164). 2019. doi: 10.3389/fmicb.2019.00164.
+
+**19. Reclassification of *Eubacterium hallii* as *Anaerobutyricum hallii* gen. nov., comb. nov., and description of *Anaerobutyricum soehngenii* sp. nov., a butyrate and propionate-producing bacterium from infant faeces.** **Shetty SA**, Zuffa S, Bui TP, Aalvink S, Smidt H, De Vos WM. [International Journal of Systematic and Evolutionary Microbiology](https://doi.org/10.1099/ijsem.0.003041). 2018 Oct 23.
+
+**18. Flux, impact and fate of halogenated xenobiotic compounds in the gut.** Atashgahi S, **Shetty SA**, Smidt H, De Vos WM. [Frontiers in physiology](https://www.frontiersin.org/articles/10.3389/fphys.2018.00888/full). 2018; 9:888.
+
+**17. Genomic and physiological analyses of an indigenous strain, *Enterococcus faecium* 17OM39.** Ghattargi VC, Nimonkar YS, Burse SA, Davray D, Kumbhare SV, **Shetty SA**, Gaikwad MA, Suryavanshi MV, Doijad SP, Utage B, Sharma OP. [Functional & integrative genomics](https://doi.org/10.1007/s10142-018-0596-x). 2018 Jul 1;18(4):385-99.
+
+**16. Complete Genome Sequence of *Eubacterium hallii* Strain L2-7.** Shetty SA\*\*, Ritari J, Paulin L, Smidt H, De Vos WM. [Genome Announc](https://doi.org/10.1128/genomea.01167-17). 2017 Oct 26;5(43). pii: e01167-17.
+
+**15. Intestinal microbiome landscaping: insight in community assemblage and implications for microbial modulation strategies.** **Shetty SA**#, Hugenholtz F, Lahti L, Smidt H, de Vos WM. [FEMS Microbiol Rev](https://doi.org/10.1093/femsre/fuw045). 2017 Mar 1;41(2):182-199.
+
+**14. An inducible operon is involved in inulin utilization in *Lactobacillus plantarum* strains, as revealed by comparative proteogenomics and metabolic profiling.** Buntin N, Hongpattarakere T, Ritari J, Douillard FP, Paulin L, Boeren S, **Shetty SA**, de Vos WM. [Applied and Environmental Microbiology](https://doi.org/10.1128/AEM.02402-16). 2017 Jan 15;83(2):e02402-16.
+
+**13. Limited Bacterial Diversity within a Treatment Plant Receiving Antibiotic-Containing Waste from Bulk Drug Production.** Marathe NP, **Shetty SA**, Shouche YS, Larsson DG. [PLoS One](https://doi.org/10.1371/journal.pone.0165914). 2016 Nov 3;11(11):e0165914.
+
+**12. Comparative genomics and physiology of the butyrate-producing bacterium *Intestinimonas butyriciproducens*.** Bui TP, **Shetty SA**, Lagkouvardos I, Ritari J, Chamlagain B, Douillard FP, Paulin L, Piironen V, Clavel T, Plugge CM, de Vos WM. [Environ Microbiol Rep](https://doi.org/10.1111/1758-2229.12483). 2016 Dec;8(6):1024-1037.
+
+**11. Exploration of Microbial Diversity and Community Structure of Lonar Lake: The Only Hypersaline Meteorite Crater Lake within Basalt Rock.** Paul D, Kumbhare SV, Mhatre SS, Chowdhury SP, **Shetty SA**, Marathe NP, Bhute S, Shouche YS. [Front Microbio](https://doi.org/10.3389/fmicb.2015.01553)l. 2016 Jan 22; 6:1553.
+
+**10. Molecular Characterization and Meta-Analysis of Gut Microbial Communities Illustrate Enrichment of *Prevotella* and *Megasphaera* in Indian Subjects.** Bhute S, Pande P, **Shetty SA**, Shelar R, Mane S, Kumbhare SV, Gawali A, Makhani H, Navandar M, Dhotre D, Lubree H, Agarwal D, Patil R, Ozarkar S, Ghaskadbi S, Yajnik C, Juvekar S, Makharia GK, Shouche YS. [Front Microbiol](https://doi.org/10.3389/fmicb.2016.00660). 2016 May 9; 7:660.
+
+**9. Prevalence and subtype analysis of *Blastocystis* in healthy Indian individuals.** Pandey PK, Verma P, Marathe N, **Shetty SA**, Bavdekar A, Patole MS, Stensvold CR, Shouche YS. [Infect Genet Evol](https://doi.org/10.1016/j.meegid.2015.02.012). 2015 Apr; 31:296-9.
+
+**8. Genome sequencing of multidrug resistant novel *Clostridium* sp. BL8 reveals its potential for pathogenicity.** Marathe NP, **Shetty SA**, Lanjekar VB, Rasane MH, Ranade DR, Shouche YS. [Gut Pathog](https://doi.org/10.1186/1757-4749-6-30). 2014 Jul 18; 6:30.
+
+**7. Draft Genome Sequences of *Yersinia pestis* Strains from the 1994 Plague Epidemic of Surat and 2002 Shimla Outbreak in India.** Mahale KN, Paranjape PS, Marathe NP, Dhotre DP, Chowdhury S, **Shetty SA**, Sharma A, Sharma K, Tuteja U, Batra HV, Shouche YS. [Indian J Microbiol](https://dx.doi.org/10.1007%2Fs12088-014-0475-7). 2014 Dec;54(4):480-2.
+
+**6. Genome sequencing analysis reveals virulence-related gene content of *Ochrobactrum intermedium* strain 229E, a urease-positive strain isolated from the human gastric niche.** Kulkarni GJ, **Shetty SA**, Dharne MS, Shouche YS. [FEMS Microbiol Lett](https://doi.org/10.1111/1574-6968.12549). 2014 Oct;359(1):12-5.
+
+**5. Opportunities and challenges for gut microbiome studies in the Indian population.** **Shetty SA**, Marathe NP, Shouche YS. [Microbiome](https://doi.org/10.1186/2049-2618-1-24). 2013 Sep 17;1(1):24.
+
+**4. Comparative genome analysis of *Megasphaera* sp. reveals niche specialization and its potential role in the human gut.** **Shetty SA**, Marathe NP, Lanjekar V, Ranade D, Shouche YS. [PLoS One](https://doi.org/10.1371/journal.pone.0079353). 2013 Nov 18; 8(11):e79353.
+
+**3. Draft genome of *Ochrobactrum intermedium* strain M86 isolated from non-ulcer dyspeptic individual from India.** Kulkarni G, Dhotre D, Dharne M, **Shetty SA**, Chowdhury S, Misra V, Misra S, Patole M, Shouche Y. [Gut Pathog](https://doi.org/10.1186/1757-4749-5-7). 2013 Apr 4; 5(1):7.
+
+**2. Changes in human gut flora with age: an Indian familial study.** Marathe N, **Shetty SA**, Lanjekar V, Ranade D, Shouche Y. [BMC Microbiol](https://doi.org/10.1186/1471-2180-12-222). 2012 Sep 26; 12:222.
+
+**1. Genome sequence of *Janibacter hoylei* MTCC8307, isolated from the stratospheric air.** **Shetty SA**, Pawar SP, Dhotre DP, **Shetty SA**, Chowdhury SP, Chaudhari BL, Shouche YS. [J Bacteriol](https://dx.doi.org/10.1128%2FJB.01728-12). 2012 Dec;194(23):6629-30.

@@ -1,0 +1,14 @@
+{
+  "index.qmd": {
+    "index.html": "a8ff0eaf"
+  },
+  "about.qmd": {
+    "about.html": "301d35a5"
+  },
+  "publications.qmd": {
+    "publications.html": "eb9ff980"
+  },
+  "software.qmd": {
+    "software.html": "bfb551c1"
+  }
+}
