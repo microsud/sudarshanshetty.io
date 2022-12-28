@@ -1,0 +1,49 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+trash
+# Quarto
+/.quarto/
+#/_site/
+#.quarto/
+# R data
+*.rds
+*.RDS
+*.Rds
+*.rda
+*.RDA
+*.Rda
+# R Environment Variables
+.Renviron
+
+# Mac
+.DS_Store
+.Thumbs.db
+Thumbs.db
+
+# R projects 
+*.Rproj
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+*.RData
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user
+.Rproj.user/
