@@ -1,7 +1,3 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
 trash
 # Quarto
 /.quarto/
@@ -46,6 +42,6 @@ Thumbs.db
 
 # RStudio files
 .Rproj.user
-.Rproj.user/
+/.Rproj.user/
 .DS_Store
 /.quarto/
