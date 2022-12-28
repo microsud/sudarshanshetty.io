@@ -1,5 +1,6 @@
 ---
 title: "Publications"  
+editor: visual 
 ---
 
 [*Google Scholar Profile.*](https://scholar.google.co.in/citations?user=Vahc6LUAAAAJ&hl=en)
