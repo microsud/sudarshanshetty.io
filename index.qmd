@@ -21,38 +21,34 @@ about:
       href: https://www.linkedin.com/in/sudarshan-shetty-57345822/  
 ---
 
+I'm a microbiome scientist interested in exploring the potential of microbiome in improving health and well-being. I have \>9 years of experience in human microbiome research. In these years, I have acquired skills in experimental design, anaerobic microbiology, multi-omics data analytics, tool development and led collaborative projects.
 
-I'm a microbiome scientist interested in exploring the potential of microbiome in improving health and well-being. I have >9 years of experience in human microbiome research. In these years, I have acquired skills in experimental design, anaerobic microbiology, multi-omics data analytics, tool development and led collaborative projects.  
-
-I received my PhD in Human gut microbiology at the Laboratory of Microbiology, Wageningen University and Research, with Prof. dr. Willem M De Vos, Prof. dr. Hauke Smidt and Prof. dr. Leo Lahti. I studied the human gut microbiome at multiple levels from single bacterium, synthetic microbiomes to ecosystem level. Together with Leo Lahti, I have co-developed R packages that are widely used in microbiome research.  
+I received my PhD in Human gut microbiology at the Laboratory of Microbiology, Wageningen University and Research, with Prof. dr. Willem M De Vos, Prof. dr. Hauke Smidt and Prof. dr. Leo Lahti. I studied the human gut microbiome at multiple levels from single bacterium, synthetic microbiomes to ecosystem level. Together with Leo Lahti, I have co-developed R packages that are widely used in microbiome research.
 
 Apart from research, I enjoy creating acrylic paintings and consider my self an amateur chef.
 
+## Experience
 
-## Experience  
+-   February 2021 - February 2023\
+    Post Doctoral Researcher at Medische microbiologie en infectiepreventie, Groningen and The Netherlands National Institute for Public Health and the Environment (Rijksinstituut voor Volksgezondheid en Milieu).
 
-* February 2021 - February 2023      
-Post Doctoral Researcher at Medische microbiologie en infectiepreventie, Groningen and The Netherlands National Institute for Public Health and the Environment (Rijksinstituut voor Volksgezondheid en Milieu).   
+-   February 2020 - Jan 2021\
+    Post Doctoral Researcher at University Medical Center, Utrecht and Netherlands National Institute for Public Health and the Environment (Rijksinstituut voor Volksgezondheid en Milieu).\
+    • Immune response in elderly subjects receiving vaccine(s). Investigation of various immune parameters and microbiota.
 
-* February 2020 - Jan 2021  
-Post Doctoral Researcher at University Medical Center, Utrecht and Netherlands National Institute for Public Health and the Environment (Rijksinstituut voor Volksgezondheid en Milieu).   
-•	Immune response in elderly subjects receiving vaccine(s). Investigation of various immune parameters and microbiota.      
+-   March 2019 - Jan 2020\
+    Post Doctoral Researcher at Laboratory of Microbiology, Wageningen University and Research.\
+    • Design and development of synthetic human gut microbiomes.\
+    • Developing multi-omics integrative biodiscovery pipelines for efficient utilization of synthetic microbiomes in a variety of biotech applications.
 
-* March 2019 - Jan 2020  
-Post Doctoral Researcher at Laboratory of Microbiology, Wageningen University and Research.  
-•	Design and development of synthetic human gut microbiomes.  
-•	Developing multi-omics integrative biodiscovery pipelines for efficient utilization of synthetic microbiomes in a variety of biotech applications.  
+-   August 2014 - March 2019\
+    PhD, Laboratory of Microbiology, Wageningen University and Research.\
+    • Used a combination of genomics, proteomics and anaerobic culturing to elucidate the physiology of core human intestinal bacteria.\
+    • Used a combination of in-silico and in-vitro approach to develop a defined consortium of human intestinal microbiome.\
+    • Developed analytical pipelines in R for high-throughput sequencing data (primarily 16S rRNA gene amplicon).
 
-* August 2014 - March 2019  	  
-PhD, Laboratory of Microbiology, Wageningen University and Research.  
-•	Used a combination of genomics, proteomics and anaerobic culturing to elucidate the physiology of core human intestinal bacteria.  
-•	Used a combination of in-silico and in-vitro approach to develop a defined consortium of human intestinal microbiome.  
-•	Developed analytical pipelines in R for high-throughput sequencing data (primarily 16S rRNA gene amplicon).    
-
-* June 2012 - June 2014	 	
-Junior Research Fellow, National Centre for Cell Science.  
-•	Developed 48-well plate screening method for bio-molecules from bacteria isolated from various ecological niches of Western Ghats.  
-•	Genome sequencing and analysis of potential novel anaerobic bacteria isolated from feces of healthy human subjects.  
-•	High-throughput sequencing and data analysis of microbial community in human subjects with different dietary habits (The Pune Microbiome Study).  
-   
- 
+-   June 2012 - June 2014\
+    Junior Research Fellow, National Centre for Cell Science.\
+    • Developed 48-well plate screening method for bio-molecules from bacteria isolated from various ecological niches of Western Ghats.\
+    • Genome sequencing and analysis of potential novel anaerobic bacteria isolated from feces of healthy human subjects.\
+    • High-throughput sequencing and data analysis of microbial community in human subjects with different dietary habits (The Pune Microbiome Study).

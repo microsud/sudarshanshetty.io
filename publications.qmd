@@ -3,11 +3,11 @@ title: "Publications"
 editor: visual 
 ---
 
-[*Google Scholar Profile.*](https://scholar.google.co.in/citations?user=Vahc6LUAAAAJ&hl=en)
+*Full list on [Google Scholar Profile.](https://scholar.google.co.in/citations?user=Vahc6LUAAAAJ&hl=en)*
 
 ## Peer-reviewed Publications
 
-**37. Species-Specific Patterns of Gut Metabolic Modules in Dutch Individuals with Different Dietary Habits.** **Shetty SA**, Stege PB, Hordijk J, Gijsbers E, Dierikx CM, van Duijkeren E, Franz E, Willems RJ, Paganelli FL, Fuentes S. [Msphere](https://journals.asm.org/doi/full/10.1128/msphere.00512-22). 2022 Dec 21;7(6):e00512-22.
+**37. Species-Specific Patterns of Gut Metabolic Modules in Dutch Individuals with Different Dietary Habits.** **Shetty SA**, Stege PB, Hordijk J, Gijsbers E, Dierikx CM, van Duijkeren E, Franz E, Willems RJ, Paganelli FL, Fuentes S. [MSphere](https://journals.asm.org/doi/full/10.1128/msphere.00512-22). 2022 Dec 21;7(6):e00512-22.
 
 **36. Identification of aging‐associated immunotypes and immune stability as indicators of post‐vaccination immune activatio**n Cevirgel A, **Shetty SA**, Vos M, Nanlohy NM, Beckers L, Bijvank E, Rots N, van Beek J, Buisman AM, van Baarle D. [Aging Cell](https://onlinelibrary.wiley.com/doi/pdf/10.1111/acel.13703). 2022 Oct;21(10):e13703.
 
